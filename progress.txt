@@ -2317,3 +2317,22 @@ Multi-cultural environment, 30 different nationalities, English being the offici
 https://stackoverflow.com/jobs/155481/streaming-engineer-docler-holding-luxembourg?sec=False&pg=1&offset=1
 ---
 With Haxe, you can easily build cross-platform tools targeting all the mainstream platforms natively.
+
+
+http://rtc.io/
+https://github.com/js-platform/node-webrtc
+
+https://www.npmjs.com/package/fms-js
+https://www.wowza.com/
+https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol
+https://en.wikipedia.org/wiki/HTTP_Live_Streaming
+---
+elasticsearch,
+
+---
+https://www.glassdoor.com/Job/switzerland-remote-jobs-SRCH_IL.0,11_IN226_KO12,18.htm
+https://angel.co/r/switzerland/developer/jobs
+https://www.youtube.com/watch?v=H1oeSs67myA
+https://www.youtube.com/watch?v=vUbg6MsnXEg
+---
+https://stackoverflow.com/jobs/contract-remote-developer-jobs-in-luxembourg
