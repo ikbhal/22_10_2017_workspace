@@ -1164,3 +1164,44 @@ less memory usage
 
 creator: Evan Pheonix
 ---
+ruby on rails blog tutorial
+---
+real time applications
+
+test example tutorial
+todo, blog, forum, chat, hacker news clone
+
+build clones with rails
+trello clone, twitter clone, ecommerce website
+slideshare clone, hulu clone, basecamp clone, github clone
+urban dictionary, airbnb, drible clone, twitch clone
+kickstarter clone, goodreads clone, couch surfing clone, fiverr clone
+
+funny or die clone, genious.com annotaions clone
+indiegogo clone, jobster clone(job search)
+livingsocial clone, myfitnesspal clone, pixlr clone
+scribd clone, square clone
+themeforest, wehearit clone, zendesk clone(CRM)
+reddit clone, youtube clone,pinterest clone, yelp clone
+craiglist clone
+---
+build with ruby or ruby on rails
+ - Twitter (in its early days) We're putting Twitter on our list as it was originally built with Ruby on Rails in 2006. ...
+2 - Basecamp. I guess there's no need to introduce ;-)
+3 - Yellow pages. ...
+4 - Hulu. ...
+5 - Slideshare. ...
+6 - Github. ...
+7 - Shopify. ...
+8 - Groupon.
+
+skillcrush.com
+--
+https://skillcrush.com/2015/02/02/37-rails-sites/
+https://prograils.com/posts/top-10-famous-sites-built-with-ruby-on-rails
+https://careerfoundry.com/en/blog/web-development/10-great-sites-built-with-ruby-on-rails/
+https://codebrahma.com/top-sites-built-with-ruby-on-rails/
+https://designwebkit.com/inspiration/40-websites-built-with-ruby-on-rails/
+
+---
+https://code4startup.com/projects/airalien-clone-airbnb-with-ruby-on-rails-bootstrap-jquery-and-paypal
