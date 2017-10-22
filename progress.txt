@@ -2266,3 +2266,54 @@ Demonstrated success in designing and building complex, distributed and robust s
 Strong analytical, communication and collaboration skills
 Proactive, independent, completes tasks down to resolution
 https://stackoverflow.com/jobs/156312/software-engineer-backend-spotme?sec=False
+
+---
+apply anay company switzerland
+luxemburg is also ok
+---
+
+Job description
+
+Job description
+
+We are looking for someone who is really passionate about frontend technologies, learning new languages and tools to provide high quality single page applications for multiple products.
+
+What you will really be doing
+
+Developing and maintaining streaming technologies (HTML5 client, media server) 
+Implementing, integrating and researching new technologies
+Technologies
+
+Javascript, Haxe
+Hls, Mse, Rtmp, Webrtc
+Node.js, Wowza, Fms
+Requirements
+
+Expectations
+
+Basic knowledge of streaming technologies (interest is more important) Analytical and solution-oriented mindset
+Open to learn and self-improvement
+Good communication, team-player attitude
+Nice to have
+
+Experience with streaming technologies
+Transport formats (hls, dash)
+Container formats m(p2ts, mp4, webm)
+Encoders (h.264, h.265, vp8, vp9, aac, etc.
+Protocolls (http, websocket, rtmp, webrtc)
+Experience with Node.js, wowza, fms 
+Experience with visual image processing
+What we offer
+
+Competitive salary package
+Relocation package and support
+Additional benefits: meal vouchers, private health insurance, Sympass card
+Conferences, certifications, technical workshops, trainings and language courses
+Possibility to advance in the company (career development, opportunity to work on new projects)
+Latest hardware, multiple monitors
+Chill rooms, creative areas, LAN parties and fun events
+Voted as the second richest country in the world, Luxembourg offers a high quality of life that is hard to match 
+Multi-cultural environment, 30 different nationalities, English being the official language
+https://stackoverflow.com/jobs/155481/streaming-engineer-docler-holding-luxembourg?sec=False&pg=1&offset=1
+---
+With Haxe, you can easily build cross-platform tools targeting all the mainstream platforms natively.
