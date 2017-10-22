@@ -384,3 +384,197 @@ sidekiq:
     - .:/drkiq
   env_file:
     - .drkiq.env    
+
+---
+
+docker volume create --name drkiq-postgres
+docker volume create --name drkiq-redis
+---
+Running Everything
+
+Now it's time to put everything together and start up our stack by running the following:
+
+docker-compose up
+---
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker­-compose run --­­user "$(id ­-u):$(id -­g)" drkiq rake db:reset
+docker­-compose run --­­user "$(id ­-u):$(id -­g)" drkiq rake db:migrate    
+
+
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker­-compose run  drkiq rake db:reset
+docker­-compose run  drkiq rake db:migrate
+---
+Running Everything, Round 2
+
+Now that our database is initialized, try running the following:
+
+docker-compose up
+
+http://localhost:8000/
+
+---
+Right now the source code is on your work station, and that source code is being mounted into the Docker container in real time through a volume.
+
+This means that if you were to edit a file, the changes would take effect instantly, but right now we have no routes or any CSS defined to test this.
+
+Generating a Controller
+
+Run the following command to generate a Pages controller with a home action:
+
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker-­compose run --­­user "$(id -­u):$(id -­g)" drkiq rails g controller Pages home
+
+
+Adding a New Job
+
+Use the following to add a new job:
+
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker-­compose run --­­user "$(id -­u):$(id -­g)" drkiq rails g job counter
+
+Modifying the Counter Job
+
+Next, replace the perform function to look like this:
+
+def perform(*args)
+  21 + 21
+end
+
+---
+Modifying the Pages Controller
+
+Replace the home action to look like this:
+
+def home
+  # We are executing the job on the spot rather than in the background to
+  # exercise using Sidekiq in a trivial example.
+  #
+  # Consult with the Rails documentation to learn more about Active Job:
+  # http://edgeguides.rubyonrails.org/active_job_basics.html
+  @meaning_of_life = CounterJob.perform_now
+end
+---
+Modifying the Home View
+
+The next step is to replace the app/views/pages/home.html.erb file to look as follows:
+
+<h1>The meaning of life is <%= @meaning_of_life %></h1>
+
+---
+Restart the Rails Application
+
+You need to restart the Rails server to pickup new jobs, so hit CTRL+C to stop everything, and then run docker-compose up again.
+
+If you reload the website you should see the changes we made.
+---
+Semaphore
+You can easily set up continuous integration for your Docker projects on Semaphore.
+
+First thing you'll need to do is sign up for a free Semaphore account. Then, you should add your Docker project repository. If your project has a Dockerfile or docker-compose.yml, Semaphore will automatically recommend the platform with Docker support.
+
+Now you can run your images just as you would on your local machine, for example:
+
+  docker build <your-project>
+  docker run <your-project>
+With your Docker container up and running, you can now run all kinds of tests against it. To learn more about using Docker on Semaphore, you can check out Semaphore's Docker documentation pages.
+
+
+=-===
+docker CI/CD
+
+semaphore.ci
+Start testing & deploying with Semaphore
+Easy setup. Free for open source. 30-day free trial for private projects.
+
+
+Pick a username
+
+ikbhal
+Your email address
+
+iqbalforall@gmail.com
+Create a password
+
+••••••••••
+ Create Free Account
+or sign up with your GitHub account
+
+Get Started with GitHub
+✔Get up and running quickly with 100+ preinstalled tools
+✔Run builds 59% - 101% faster than on other CI/CD services
+✔Parallelize a large test suite down to minutes
+✔Build and deploy microservices with native Docker CI/CD
+✔Replace ad-hoc manual deployment with automated pipelines
+✔Get quality support straight from our engineers
+---
+https://semaphoreci.com/docs/docker/setting-up-continuous-integration-for-docker-project.html
+
+https://nickjanetakis.com/
+
+---
+Once you have chosen a platform, you can add your container registry host. Semaphore supports:
+
+Docker Hub,
+Amazon EC2 Container Registry (ECR),
+Google Container Registry (GCR),
+Quay.io,
+Custom Container Registry.
+---
+If you don't already have a Semaphore account, sign up for a free account. The free account provides you with unlimited CI service for open-source projects and up to 100 private builds per month.
+
+---
+https://semaphoreci.com/product/docker
+---
+docker-cache
+bundle exec inframan docker build
+bundle exec inframan docker push
+---
+ecs deploy..
+
+---
+aws cluster
+  service name
+
+ ---
+ play
+ ---
+ amazon ec2 container registry(ECR)
+ google container registry(GCR)
+ custom container registry
+ Quay.io
+ dockerhub
+
+ ---
+ docker run -it --rm  \
+  -v "$PWD":/usr/src/app -w /usr/src/app rails:4 rails new --skip-bundle drkiq
+
+ ---
+ Get a 1G / 1CPU / 20G docker cluster from CloudHero | Secure Docker Container as a Service For Developers - CloudHero
+ 'http://cloudhero.io/'
+
+ ---
+ But if you combine AWS Free Tier with Docker Hosting – Run Docker Containers in any Cloud - Tutum (which is still free) you have a pretty scalable, fast and flexible solution.
+ ---
+ Cloudways is a managed cloud and container hosting provide for PHP based sites. Every server on Cloudways comes with ThunderStack(Nginx,Varnish,Apache,PHP-FPM) which helps you improve your site performance and decrease your site load time. Additionally they provide many features on 1-click. On Cloudways, you can enjoy 3 days of free Managed Container Hosting.
+ ---
+ Try Now - Realtime global deployments - about as simple as it gets. Docker or no docker, and free.
+
+ Containerum offers a free docker cluster (256M RAM，300m CPU，1 TB Traffic，5 GB Volume) for 1 year. No Phone and Credit Card Verify.
+
+Usage example:
+
+https://shui.azurewebsites.net/2...
+---
+Arukas Docker Hosting Service
+ARUKAS CLOUDis
+DOCKER HOSTI
+https://arukas.io/en/
+beta not allwoing to signup
+---
+https://platform.cloudways.com/signup?utm_source=platform&utm_campaign=November16%20Optin&utm_medium=Signup
+was not working
+trail expire
+---
+no free docker hosting
+---
