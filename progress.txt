@@ -1115,3 +1115,52 @@ end
 
 https://www.codeschool.com/courses/testing-with-rspec    
 rails generate rspec:install
+---
+using github repos as blog data
+---
+ruby on rails
+mina
+ruby mina, puma
+---
+http://nadarei.co/mina/
+Really fast deployer and server automation tool
+minimizes ssh connection overhead
+
+config/deploy.rb
+
+require 'mina/git'
+require 'mina/bundler'
+
+set :domain, 'your.server.com'
+set :user, 'flipstack'
+set :repository, 'flipstack'
+
+task :deploy do
+  deploy do
+    # Preparations here
+    invoke :'git:clone'
+    invoke :'bundle:install'
+  end
+end
+
+task :restart do
+  queue 'sudo service restart apache'
+end
+----
+http://puma.io/
+built for speed and concurrency
+
+gem "puma"
+
+start puma
+bundle exec puma
+
+quickstart without bundler
+
+gem install puma
+puma
+
+less memory usage
+
+creator: Evan Pheonix
+---
