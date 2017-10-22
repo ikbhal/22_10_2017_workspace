@@ -1,0 +1,218 @@
+Target:
+4th day/30
+----------
+1)product building
+2)java,springboot, hibernate normal job learning
+3)applying remote job
+4)ds & algorithms
+5)Elm,Erlong, Elixir jobs remote
+remoteok, workremotely,hasjob,indeed,naukri,angel.co
+6)commit learning to github.com
+gathering,tutorial,practicing
+7)docker ruby on rails with git
+git repo, secret with environment, dockerfile, run locally
+8)kafka,couchdb, casandra
+go,javaa
+9)ruby on rails blog tutorial
+10)blogbuiltwith(ror,go,python django,elixir,node.js)
+11)elastic search
+----------
+learn one arabic word every day
+
+1)Applying remote job
+Erlong jobs
+1)google search Erlong remote jobs
+2)update resume in naukri, linkedin with 
+Erlong, Elixir,Go
+done in naukri
+---
+weworkremotely site
+github jobs
+---
+https://jobmote.com/jobs/7471-senior-developer-ruby-rails-elm
+Our code is a mixture of Ruby, Elm, Javascript, and a dash of Clojure. Additionally, we have a strong interest in functional programming languages like Haskell, OCaml, Elixir, and Idris. We're also using Rails, React, Postgresql, S3, Redis, Memcached, Docker, Nomad, Terraform, and more. While these are the tools we're currently using, you don't need to have previous experience with them. We know that good developers are capable of quickly picking up new languages and tools.
+
+---
+functional programming language
+Haskell, OCaml, Elixir, Idris
+
+other technologies
+Nomad, Terraform, Cloure
+---
+https://jobs.github.com/positions/6bf2b51c-af87-11e7-8f77-fe95300449e5
+http://careers.citrusbyte.com/apply/tPTZOv/Experienced-Backend-Engineer
+---
+write article on technology
+---
+Write some code, that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] -> [1,2,3,4]. 
+
+Your solution should be a link to a gist on gist.github.com with your implementation.
+
+When writing this code, you can use any language you're comfortable with. The code must be well tested and documented if necessary, and in general please treat the quality of the code as if it was ready to ship to production.
+
+Try to avoid using language defined methods like Ruby's Array#flatten.
+---
+https://apidock.com/ruby/Array/flatten
+---
+run ruby online
+
+http://rextester.com/l/ruby_online_compiler
+https://repl.it/languages
+http://rubyfiddle.com/
+---
+iterating ruby
+--
+https://code-maven.com/for-loop-in-ruby
+ruby
+names = ['Foo', 'Bar', 'Baz']
+ 
+puts names
+puts
+ 
+ 
+names.each { |item|
+    puts item
+}
+puts
+ 
+names.each do |item|
+    puts item
+end
+--
+arry.kind_of?(Array)
+arr.is_a?
+
+---
+https://ruby-doc.org/core-2.2.0/Array.html
+---
+applied hellosign
+---
+hacker in residence
+startup studio
+---
+https://www.simplyhired.com/job/7TzKuWs3hWW5_KftQ6UzqFBychl0Zx0dQ-8OPxdpuHlNWwASAqM_hw
+---
+Telnyx
+Elixir Engineer
+Product Engineering
+Chicago, IL, United States
+About Telnyx
+Telnyx is building the global telco of the future. We have deployed an international private software-defined network, with multiple tier-1 interconnects, leveraging all major cloud service providers to deliver a voice and messaging solution with carrier-grade reliability. We sell our services in a totally automated fashion, allowing our users to programmatically scale their voice and messaging on-demand.
+In addition to providing service and software in major North American and European markets, we are expanding to Asia and are developing a wireless product that will provide licensed spectrum access to our infrastructure.
+Telnyx has seventy employees (70% engineers) between our Chicago, IL office, Dublin, Ireland office and remote team. We have actual revenue traction, meaningful sequential monthly growth, and a massive addressable market.
+
+Joining Our Team
+At Telnyx, we’re working to globally democratize access to real-time communications over the internet. We’re building a future where voice, messaging, and wireless services can act as building blocks to facilitate high-fidelity, secure, and modern modes of communication.
+No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas. People rely on our products to communicate daily, which means they rely on us to build things with a high degree of resiliency and reliability.
+
+The Role
+As an Elixir Engineer at Telnyx, you will deploy groundbreaking applications to solve our customers’ hardest problems. Projects often start with a nebulous question and our Engineers lead the way in developing a solution, from high-level system design and prototyping to application development and data integration. As a Telnyx software engineer, you leverage everything around you: Telnyx products, open source technologies, and anything you and your team can build to drive real impact.
+ 
+You work with users around the globe, where you help our customers by solving their communications challenges. Each mission presents different challenges, from the regulatory environment to the nature of the data to the user population. You will work to accommodate all aspects of an environment to drive real technical outcomes.
+
+In this role, you will:
+Build Elixir products for the delivery of mission-critical global communications. These products are latency sensitive and must handle data at scale, all while maintaining an intuitive user experience.
+Create tools to automate critical aspects of production systems.
+
+What we value:
+Strong engineering background, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics.
+3+ years of professional software development experience with either Ruby or a functional programming language (Clojure, Erlang, etc).
+Demonstrated ability to continuously learn, work independently, and make decisions with minimal supervision. You understand that making mistakes means you’re learning, and you actively seek opportunities to grow and develop.
+You want to work on software that is changing the world and you're passionate about creating intuitive, scalable products that magnify the analytical capabilities of our users. 
+Experience building and operating scalable infrastructure software or distributed systems.
+Experience with large-scale production databases and major cloud services.
+Familiarity with micro-service architectures.
+Highly proficient in a Linux environment. 
+Experience with PostgreSQL.
+Experience working with message queues (RabbitMQ).
+Unit testing (we don’t do TDD, but we like coverage - a lot).
+
+Technologies we use
+A variety of languages including Python, Java, Elixir, Scala, Go, Angular, and React.
+Open-source technologies like Cassandra, Spark, and ElasticSearch.
+Industry-standard build tooling, including Docker, Consul, Jenkins, Ansible, and Github.
+
+Our Guiding Principles
+We wrote these principles to be actionable, to inform decision-making and to provide a sense of what’s important and what’s right. We live our values every day. They guide how we hire, train, measure and reward each other.
+
+Stay gritty
+Do more with less. We are creative problem solvers that always use constraints to our advantage.
+
+Leverage the experience of others
+Avoid unnecessary detours by learning from the mistakes and successes of others. Those who do not learn from history are destined to repeat it.
+
+Improve continually
+Perfection is the enemy of progress. Always ask “why.” Think big, start small, collect data, and iterate quickly.
+
+Work together
+Seek exponential gains in our work by improving the lives of colleagues and customers.
+
+Practice diligence
+Measure twice and cut once. Plan thoughtfully, always have someone double-check your work, and take deliberate action.
+
+Spread integrity
+Be transparent and honest. Give direct feedback.
+
+Take action
+Err on the side of action.No one is above any task; take ownership and get things done.
+
+Think forward
+Always think about what you can do today to put the company in the best position in the future.
+Remind me to apply later
+Apply to Job
+
+First name 
+
+Last name 
+
+Email 
+
+Phone number
+
+Website
+
+Resume
+ attach  ATTACH
+Cover letter
+ attach  ATTACH
+ 
+SUBMIT
+Hire, a recruiting app for G Suite
+Privacy policy
+---
+withgoogle
+hire app
+---
+applying splunk senior software eng
+https://www.simplyhired.com/job/Zbm2IHsPr9jsUnD16FhXURl5luZCnTEUgbjZh8fqEUOwo9-vcrw8Uw
+http://jobs.jobvite.com/splunk/job/o8CO5fwn/apply
+https://www.terakeet.com/careers/?p=job%2FoPU85fwG%2FapplyConfirmation&__jvst=Job%20Board&__jvsd=Indeed&nl=1
+--
+
+https://www.indeed.com/q-Elixir-or-Erlang-Developer-in-Remote-jobs.html
+
+https://boards.greenhouse.getrake.io/digitaloceancitesremotes/jobs/857064?gh_jid=857064&gh_src=cs3mdi1#confirmation
+---
+lua, rust
+Measurence
+Actionable Analytics for the Physical World
+penWrt Software Engineer €40k - €60k · 0.0 - 0.2%
+Full Time · Remote OK · New York City · Software Engineer · Linux · Lua · Shell Scripting · GNU Make · rust · WiFi (802.11a/b/g/n/ac) and Bluetooth HW · OpenWrt · Mesh Network · Nim
+
+---
+Measurence
+Actionable Analytics for the Physical World
+
+To apply, email your LinkedIn Url (like: https://www.linkedin.com/in/ikbhal-basha-shaik-2684031b/) AND the link of this job (https://angel.co/measurence/jobs/81088-openwrt-software-engineer) to aprioni@measurence.com cc’ing recruiting-openwrt@measurence.com
+
+--
+angel.co
+Maidsafe
+Secure Access For Everyone
+
+---
+
+Apache Spark Platform Engineer $120k - $180k · 0.5 - 2.0%
+Full Time · Remote OK · United States · Software Engineer · Lua · Apache Spark · Go · Apache Beam
+Software Engineer £40k - £45k · No equity
+Full Time · Remote OK · Troon · Backend Developer · C++ · Distributed Systems · Agile · Rust​ · P2P
