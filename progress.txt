@@ -2230,3 +2230,39 @@ https://www.dice.com/jobs/detail/Backend-Developer%2C-Backend-Engineer%2C-Infras
 ---
 go,graphql, react, go-kit, chi, postgresql, dynamodb, memcached/redis, nginx, haproxy, traif, docker
 mesos, trafik
+
+---
+remote companies
+dell, ibm, salesforce, sap, xerox, oracle, redhat, adobe, apple
+--- 
+permit to work in USA
+---
+ Real-Time Bidding Platform with 100k+ QPS
+ ---
+ https://stackoverflow.com/jobs/136890/senior-backend-engineer-java-scala-go-zalando-se?so=i&sec=False&pg=1&offset=1&r=True&v=True&tl=go
+
+ Java, Scala, Python or Go
+ ---
+ zalando
+, berlin
+
+---
+java, python, javascript, typescript, angular, node.js, postgresql, cassandra, influxdb, redis, elasticsearch, karma
+
+--
+The position will let you focus working on the our distributed server-side backend application, powering more than 1000 live & interactive conferences & events a year, running on the both cloud & on-premise installed servers. Key responsibilities include:
+
+Scale the backend to 1M users per year
+Implement automatic load balancing, fail-over & data geo-distribution in the global cloud platform achieving 99.9% global uptime
+Develop the next level robust and performant code execution sandbox
+Work in cross-team projects on new & improving existing features
+Participate in brainstorming, specification and design sessions
+Maintain documentation, samples & best practices up to the highest standards
+For the position we are looking for:
+
+Native JavaScript and Node.js speaker, experience in other server-side technologies is a plus
+Proficiency in SQL & No-SQL databases, experience with CouchDB is a plus
+Demonstrated success in designing and building complex, distributed and robust server-side application
+Strong analytical, communication and collaboration skills
+Proactive, independent, completes tasks down to resolution
+https://stackoverflow.com/jobs/156312/software-engineer-backend-spotme?sec=False
