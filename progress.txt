@@ -216,3 +216,120 @@ Apache Spark Platform Engineer $120k - $180k · 0.5 - 2.0%
 Full Time · Remote OK · United States · Software Engineer · Lua · Apache Spark · Go · Apache Beam
 Software Engineer £40k - £45k · No equity
 Full Time · Remote OK · Troon · Backend Developer · C++ · Distributed Systems · Agile · Rust​ · P2P
+
+---
+learn arabic
+https://www.youtube.com/watch?v=8ZIwInJfGEo&index=1&list=PL9BD7731DD2FCB7F4
+
+play list
+words, picture, voice
+---
+https://www.madinaharabic.com/vocabulary
+https://in.pinterest.com/pin/864409722199294929/?autologin=true
+
+mini picture dictionary
+arabic worksheets
+---
+ruby on rails
+blog docker
+ capastrino,sempharecI/circleCI
+ rspec
+
+ postgres
+ redis
+ sidekiq
+
+ unicorn
+  development &production server
+ ---
+ earn money by writing tutorial on semaphore: 200$
+
+https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application
+
+server: unicron, puma for ror
+ruby version manager: rvm, churby
+
+docker
+ loads fast
+ no disk space
+ contains
+   code
+   runtime
+   system libraries
+ isolation
+ 	cgroups
+ uses host kernel api
+ ---
+ benefits
+ cross environment consistency
+ expand development team painlessly
+ use whatever technology fits best
+ 	experiments with new languages and framework
+ build image once and deploy it many times
+
+ ---
+ rails
+  4.2.5
+
+ latest : rails 5
+ --
+ Generating a New Rails Application
+We're going to generate a new Rails project without even needing Ruby installed on our work station. We can do this by using the official Rails Docker image.
+
+docker version need>1.9.4
+---
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker run -it --rm --user "$(id -u):$(id -g)" \
+  -v "$PWD":/usr/src/app -w /usr/src/app rails:4 rails new --skip-bundle dummy
+
+# OSX/Windows users will want to remove --­­user "$(id -­u):$(id -­g)"
+docker run -it --rm  \
+  -v "$PWD":/usr/src/app -w /usr/src/app rails:4 rails new --skip-bundle dummy  
+
+---
+https://hub.docker.com/_/rails/
+https://store.docker.com/images/ruby
+---
+Gemfile:
+
+gem 'unicorn', '~> 4.9'
+gem 'pg', '~> 0.18.3'
+gem 'sidekiq', '~> 4.0.1'
+gem 'redis-rails', '~> 4.0.0'
+---
+DRYing Out the Database Configuration
+
+Change your config/database.yml to look like this:
+
+---
+
+development:
+  url: <%= ENV['DATABASE_URL'].gsub('?', '_development?') %>
+
+test:
+  url: <%= ENV['DATABASE_URL'].gsub('?', '_test?') %>
+
+staging:
+  url: <%= ENV['DATABASE_URL'].gsub('?', '_staging?') %>
+
+production:
+  url: <%= ENV['DATABASE_URL'].gsub('?', '_production?') %>
+
+---
+DRYing Out the Secrets File
+
+Change your config/secrets.yml to look like this:
+
+---
+
+development: &default
+  secret_key_base: <%= ENV['SECRET_TOKEN'] %>
+
+test:
+  <<: *default
+
+staging:
+  <<: *default
+
+production:
+  <<: *default    
