@@ -578,3 +578,95 @@ trail expire
 ---
 no free docker hosting
 ---
+
+$ docker run -it  --rm   -v "$PWD":/usr/src/app -w /usr/src/app rails:4 new --s
+kip-bundle drkiq
+D:\programfiles\Docker Toolbox\docker.exe: Error response from daemon: oci runti
+me error: container_linux.go:295: starting container process caused "exec: \"new
+\": executable file not found in $PATH".
+time="2017-10-22T09:13:40+05:30" level=error msg="error waiting for container: c
+ontext canceled"
+
+---
+Learning the Types of Docker Data Volumes
+There are three main use cases for Docker data volumes:
+
+To keep data around when a container is removed
+To share data between the host filesystem and the Docker container
+To share data with other Docker containers
+
+---
+ase is a little more advanced, so we won't go into it in this tutorial, but the first two are quite common.
+
+In the first (and simplest) case you just want the data to hang around even if you remove the container, so it's often easiest to let Docker manage where the data gets stored.
+
+Keeping Data Persistent
+There's no way to directly create a "data volume" in Docker, so instead we create a data volume container with a volume attached to it. For any other containers that you then want to connect to this data volume container, use the Docker's --volumes-from option to grab the volume from this container and apply them to the current container. This is a bit unusual at first glance, so let's run through a quick example of how we could use this approach to make our byebye file stick around even if the container is removed.
+
+First, create a new data volume container to store our volume:
+
+docker create -v /tmp --name datacontainer ubuntu
+This created a container named datacontainer based off of the ubuntu image and in the directory /tmp.
+
+Now, if we run a new Ubuntu container with the --volumes-from flag and run bash again as we did earlier, anything we write to the /tmp directory will get saved to the /tmp volume of our datacontainer container.
+
+First, start the ubuntu image:
+
+docker run -t -i --volumes-from datacontainer ubuntu /bin/bash
+The -t command line options calls a terminal from inside the container. The -i flag makes the connection interactive.
+
+At the bash prompt for the ubuntu container, create a file in /tmp:
+
+echo "I'm not going anywhere" > /tmp/hi
+Go ahead and type exit to return to your host machine's shell. Now, run the same command again:
+
+docker run -t -i --volumes-from datacontainer ubuntu /bin/bash
+This time the hi file is already there:
+
+cat /tmp/hi
+---
+https://boxboat.com/2016/06/18/docker-data-containers-and-named-volumes/
+
+docker create -v /dbdata --name dbstore training/postgres /bin/true
+docker run -d --volumes-from dbstore --name db1 training/postgres
+
+docker volume create --name webapp
+---
+his is excellent functionality, but how do we take advantage of it? There are three ways to create volumes, with the last being the purpose of this post. We’ve created a short tutorial to show you docker volume create examples, and end with Docker named volumes.
+1. Initialize (and mount) at run-time with the -v flag:
+
+$ docker run -P --name web -v /webapp training/webapp python app.py
+1
+$ docker run -P --name web -v /webapp training/webapp python app.py
+This will create a new volume inside a container at /webapp. Anything written to the /webapp directory will be persisted to the host machine, available to the next container that mounts it. But where is the actual volume stored? By using docker inspect, we can find where the it lives:
+
+$ docker inspect -f {{.Mounts}} web
+1
+$ docker inspect -f {{.Mounts}} web
+And you should see something like:
+
+[{d87be9594b1ac6756c6069228e7b991deb1b8803a55dca23b0a3799c30dde05e /var/lib/docker/volumes/d87be9594b1ac6756c6069228e7b991deb1b8803a55dca23b0a3799c30dde05e/_data /webapp local  true }]
+1
+[{d87be9594b1ac6756c6069228e7b991deb1b8803a55dca23b0a3799c30dde05e /var/lib/docker/volumes/d87be9594b1ac6756c6069228e7b991deb1b8803a55dca23b0a3799c30dde05e/_data /webapp local  true }]
+This “anonymous” volume was created at /var/lib/docker/volumes/d87…05e on my host machine. This isn’t exactly the most convenient for organization purposes…
+2. Using the VOLUME instruction inside a Dockerfile:
+
+FROM ubuntu:latest
+
+VOLUME /webapp
+1
+2
+3
+FROM ubuntu:latest
+ 
+VOLUME /webapp
+This has the exact same effect as using the run flag above.
+3. Create using the Docker Volume API introduced in Docker 1.9.
+
+$ docker volume create --name webapp
+1
+$ docker volume create --name webapp
+This created a volume that I got to name and didn’t have to attach to anything right away. Seeing the flexibility here? More on this below.
+There are other options to mount volumes including specifying host paths to mount directly within a container. Read up on these to become familiar with what’s available.
+---
+https://docs.docker.com/engine/extend/plugins_volume/
