@@ -1240,3 +1240,993 @@ what are you looking for so many clone paid courses
 payments, dashboard..
 ---
 but what you learn
+
+---
+groovy remote jobs
+learn groovy, grails
+---
+Technology Stack Includes:
+Grails
+Groovy
+YUI, HTML5, CSS3, Responsive design
+MySQL, MongoDB
+RabbitMQ
+
+Desirable:
+Cloud based deployments (AWS)
+Understanding of insurance industry
+Groovy and Grails experience
+Team lead experience
+Puppet
+---
+no jobs on remote atleast
+---
+what most technology, programming language for remote jbs
+---
+remotenation.io
+
+---
+
+Remote Work | Remote Jobs | Telecommuting - Remote Work | Remote Jobs | Telecommuting HOME WORKING REMOTELY HIRING INTERVIEW ADVICE GUIDES OFFICE ABOUT
+HOME WORKING REMOTELY HIRING INTERVIEW ADVICE GUIDES OFFICE ABOUT
+TwitterFacebook
+ADVICE, GUIDES, PRODUCT MANAGERS, TOOLS
+The Ultimate Guide to Project Management Software for Remote Teams.
+
+ project_management_software
+What is the best project management tool for businesses & remote teams? We get this question a lot, and it’s something that’s critical to all of our projects at FullStack. We’ve used a variety of tools over the years starting with our own home-grown application that we called “Workflo”. Eventually, we moved onto some open source tools like Trac and Redmine. We’re now running things on SaaS offerings because the quality of available tools has picked up significantly in recent years.
+
+Each project we work on is completely different, but proper project management has certain fundamentals that need to be addressed, no matter what tool used.
+
+For these reasons, we’ve decided to create a series of different categories (plus winners) allowing you to pick the best tool for your needs.
+We’ve divided our review into the following categories: Large Projects, Small Projects, Free, Personal & Overall Winner.
+
+***We know there’s many, many great project management services out there, but we just haven’t had the time to properly use them all.  If there’s something you think we HAVE to try, please write in the comments!
+
+****
+
+Pivotal Tracker
+ 
+
+Pros
+Points – Pivotal makes assigning points to stories very easy & gives project managers many different options to choose from for point systems. (Fibonacci, standard, etc)
+Linking b/w Cards- Pivotal assigns id #’s to each card, making linking very easy b/w various cards.
+Integrations – Pivotal integrates with almost every other service you might use in development (github, hipchat, slack,etc)
+Multiple WorkSpaces – If your team is large and has multiple projects, the Multiple workspace features allows you to jump b/w the different ones.
+Velocity + Volatility – Pivotal has many tracking features of points, allowing sophisticated teams to measure / optimize their workflow, identify bottlenecks, and work smarter.
+UX / UI + Flow- We love Pivotal’s automatic movement of cards for sprints from “Backlogs” into “Current”, the limited options, and simplistic feel of it.
+Reports: Pivotal gives users the ability to create burn down charts & other awesome projections easily and succinctly.
+Negatives:
+Cost- Pivotal charges per user, so for large teams- or for teams that need to have non-developers ‘monitor’ the progress, the price can get quite high quite quickly
+Break in Period- There’s a break in period to get used to the flow & general look / feel of the board.  A full board can look quite intimidating at first glance
+Creating Cards – Creating cards can take a long time since there’s so many fields.  Not a problem for important projects, but unneeded for simple or test projects
+Small Cards – The actual size of the cards is small, which is not a problem for viewing the board, but is very annoying when creating the cards for the first time.  We really wish creating the cards happened in a larger box.
+Overall:
+We’re really big fans of Pivotal Tracker for project management, but the developers we work with also prefer it over other tools we’ve tried it in the past.  Pivotal has it’s share of weaknesses, and it isn’t the fastest tool to use, but large projects w/ a big scope generally won’t have cards that need to be re-written, or moved around quickly.  If your company or project is looking for something consistent and methodical so you can just focus on development, Pivotal should work great for you!
+
+ 
+
+Jira
+ 
+
+Pros:
+Feature Rich – Jira & Jira Agile has a tool for almost any project you could possibly think of.
+Well Known – Many people have used Jira at some point, so there’s not much of a break-in period.  At the very least, most people have used one of their other, non project management products.
+Atlassian – Jira is apart of Atlassian, which is essentially a Salesforce for developers.  They have a different service for everything a team (large or small) of developers would ever need.
+Flexible – So many features allows users to stick w/ Jira / Atlassian, and use different types of boards w/ different methodologies (Agile,Kanban,etc) without changing services.
+Stable – We haven’t really noticed much downtime in any of the projects where we’ve used Jira.
+Negatives:
+Too Busy – The actual board itself is very busy w/ lots of features, which takes away focus quite easily.  While there are ways we can minimize this, we
+Too many features– There are SO many features that it’s easy to get lost as you’re trying to create the perfect environment for your team and projects
+Cost – Like Pivotal Tracker, it can get quite pricey quite fast.
+Overall:
+Overall, Jira is a solid option for many teams, but it’s hard to transition into after using other software.  Unfortunately, Jira is on the ‘More is better” side of the fence, and they have an overwhelming amount of features.  This produces the expected result of confusion, training manuals, and less focus on the core features from their internal team.  Hence, if you’re looking to switch and don’t see your company switching again for a long time, or already use another Atlassian product, then Jira will be a great fit.  Otherwise, we believe there are better options.
+
+ 
+
+Basecamp
+ 
+
+Positives:
+Simple Interface – Basecamp has a very inviting look & feel to it,
+Well Known – Basecamp has been around since the early 2000’s, which is quite a bit longer than the other services on this list.
+Good for non-technical. – Basecamp can be great for those who are non-technical and need a project management tool for non ‘app’ related things
+All-in-one features– Basecamp has chat, calendars, messages, etc.  It’s swiss-army knife, but doesn’t go crazy (like Jira)
+Built by customers – 37Signals has always built their product w/ their community’s feedback, so basecamp could be the perfect solution for what your team needs.
+Negatives:
+Too Simple – For sophisticated & large development teams, Basecamp is simply not robust enough.  If your team has a dedicated project manager, scrum master, product manager, etc- there’s going to be a lot of things that the team will need to measure against, but Basecamp won’t be able to provide.
+Tracking – Similar to above, Basecamp is light on the # of tracking and measuring tools.
+Non-Professional– This is about ‘nit-picky’ as possible, but Basecamp’s warm and inviting interface might give some clients the wrong impression of it’s power.
+Overall:
+Basecamp is a great option for both small and large teams, and could be a perfect fit for agencies that don’t need to get too technical w/ their projects – designed focused firms for instance.  Either way, we definitely suggest Basecamp as an option for teams & projects leads to check out.
+
+ 
+
+Trello
+ 
+
+Positives:
+So Simple! – Trello is so ridiculously simple to use it’s funny.  We’ve gotten so good at it that we can create an entire set of user stories + sprints for a large project in under an hour.
+Well Known – Trello is becoming well known w/ non technical people, which can be great for input from clients.
+Drag-Based Interface -Trello has a very simple point and drag interface, which also carries over to their free iOS and Android apps.
+Communication It’s very easy to write messages & get team member’s attention through their @ feature + assigning cards to different people.
+Shortcuts – Trello has some nifty shortcodes which allows power users to create cards extremely fast.
+Cost – It’s free!  The premium & business tiers have a few more features, but it’s mostly organizational things.
+Negatives:
+Too Simple– Trello has many features that work for a variety of projects, but it starts to become too simple for teams larger than 5.
+Tracking– Similarly to basecamp, Trello leaves a lot to be desired for teams that need to measure & optimize their output.  Trello wasn’t made for those types of projects, so it does prevent itself from reaching the entire PM market, but tha
+Overall:
+We love trello!  We’ve used it for managing projects, sales pipelines, content for our RemoteNation, around the house things, personal study projects, and even planning a bachelor party :).  They biggest downfall of trello (that it doesn’t have the sophisticated tools as Jira or Pivotal) is a blessing in disguise because they stay true to what the product is: a super simple and fast project management service!
+
+ 
+
+Asana
+ 
+
+Positives:
+Well Funded – Asana has raised over $38 Million (we’re not sure how…) so it’ll be around and they’ll be able to keep innovating
+Content Holder– Asana’s ‘project’ categorization style is great at holding large amounts of content for different projects
+Works– We’ve never really noticed bugs, or really anything wrong w/ the actual functionality of asana.
+Calendar– They have a great calendar which is good for collaboration.
+TeamWork– Asana is built for teams, so teamwork is a huge part of its workflow.
+Negatives:
+Not Intuitive – Asana has never felt truly intuitive, and it took us awhile to get used to it.
+Pricing- Asana has a free tier that will be enough for most users, but the premium features can get quite expensive even w/ a small # of users.
+How it Works – Asana has invested quite a bit of time & money into their how it works videos, pictures and tutorials; proving that the app is not simple to use.
+Overall:
+Asana can be a perfect option, but it’d take a very specific project or team.  We assume that it’d be hard for most teams to switch to Asana if they’re already using something else; but, after looking at their portfolio we noticed most were startups so it was probably their first project management service.  Either way, solid tool that is something your team should try in some context.
+
+ 
+
+Other Great Options (that we haven’t had the time to use)
+Our #3 might be a head scratcher to some, but it all is based around our main criteria for greatness in this category, convenience & speed. We’ve decided to not select one application, but a few that are built into some very popular other services.
+
+ 
+
+Clarizen – Clarizen’s execution platform gives your whole team a centralized environment to manage projects, tasks, resources, budgets, as well as associated emails, chat and documents.  However, we find it to be a bit clunky and non-intuitive.  It could probably use an entire UX facelift, but that would disrupt all of it’s current users
+Podio – Podio  lets you get work done with your co-workers and clients on a social work platform that you make your own.  They claim to have over ½ million users, but we’re not sure if that’s accurate… The platform has a ton of features, and seems like a hybrid of Jira + Assana.
+Wrike– is all-in-one project management software that helps remote and co-located teams get more things done together.  We like Wrike’s central focused layout (everything is in the center..) because it forces the user to focus on the task at hand.  This makes multi-tasking harder, but that’s exactly what they’re trying to prevent.
+ 
+
+Best Project Management for Small Teams
+ 
+
+1st Place: Trello
+Trello is a perfect fit for small teams that do not need sophisticated tracking tools and metrics that pivotal or jira provide, but that doesn’t mean it isn’t powerful and perfect for small teams.  Trello shines in communication, UX, and their super simple interface which allows teams to jump into Trello immediately.  Also, we think features such as chat, calendars, and video conferencing are almost always better when you use a standalone app.
+
+2nd Place: Basecamp
+We considered many different options for our #2, but ultimately decided on Basecamp because it’s features are streamlined for small teams, and it can be used as an ‘all-in-one’ tool with its: chat, calendar, and many more features.  Finally, basecamp works really well for storing documents, so for a small team w/ a limited amount, it makes choosing Basecamp that much easier.
+
+ 
+
+Best Project Management for Large Teams
+ 
+
+1st Place: Pivotal Tracker
+We use Pivotal for many of our large projects because it does exactly what we need, agile project management for large projects.  Pivotal is great when forming our sprints, release planning, and daily standups, but the ease of developer communication amongst cards & their integrations makes tracking progress easy for everyone involved.
+
+2nd Place: Jira
+We might get some pushback with choosing Pivotal Tracker over Jira for our #1, but we find Jira to have too many features ‘out of the box’.  Jira comes packed w/ many features that 99% of teams won’t end up using, but there’s a solid use case for everything included with Pivotal.  The price differences are nominal, & they have the same integrations, but we just ultimately find Jira to be too cluttered.
+
+ 
+
+Best “Cost Sensitive” Options
+We understand that startups, small businesses, and individuals typically like to save their resources (aka $$) for other essentials, when ‘free’ services are available. However, the services on the following list shouldn’t be looked at as inferior as to the other options. Rather, we think that the features list + the free aspects still make these excellent options for users in the need for video conferencing solutions.
+
+ 
+
+Tie for 1st Place: Trello
+Since trello is free and has all necessary functionality for teams, it’s an easy #1 for us.  While Trello does have a premium level, the only thing that’s really beneficial is the team organization, but that’s a ‘nice to have’ feature.  Further, there’s a “Scrum for Trello” for chrome (you can find by searching in the extensions) which allows teams to point their stories if they care to do so.
+
+2nd Place: Basecamp
+Basecamp came in as our 2nd choice because of their many features + their unique pricing setup, which could be a perfect fit for very large teams w/ a small # of projects.  Unlike almost every other service, Basecamp charges by the # of projects, NOT the # of users in a profile. Theoretically, a team of 50 could use Asana for $20 a month, VS $300 a month for Pivotal Tracker.
+
+3rd Place: Asana
+Asana has basic tier (up to 30 users) which is the only tier we’ve ever needed to use.  As we listed above, minus the quirks of Asana, they provide almost every tool a small or large project would need.  Certain things like giving points to stories for Agile teams is missing, but we’re sure you can mask this problem by creating your own system of labels in Asana.
+
+ 
+
+*Bonus* Best PM Software for Personal Projects
+Checklists and ‘to-do’ lists are quite common for a typical person, even if they’ve never touched a software project in their life.  These types of needs are quite different than one of a project manager for a lare software project with a large team, but that’s not to say the following are perfect to manage your life 🙂
+
+1st Place: Trello
+Trello wins again for its simplicity, ability to add photos, rapid creation of cards through shortcuts, and the intuitive UX/UI of the app.  As you can tell, we’re big proponents of trello, but for good reason, it has a ton of necessary features, but they don’t pile on the unnecessary like most of the other options on this guide.
+
+2nd Place: Todoist
+Todoist is a well known and powerful checklist creator built for a non-technical crowd.  Todoist has 100’s of use cases, but what it’s really great at is having a simple & clean user interface to get work done quickly in an organized manner.  Also, for power-users, Todoist has an easy folder system for categorizing larger projects or initiatives you might be working.  Finally, Todoist also has a nifty iOS and Android app, and more features on the way!
+
+3rd Place: Checkli
+Checkli is an even simpler form of Todoist, and places great emphasis on the task at hand.  Checkli has limited features, but is a great tool for creating simple daily to-do lists (grocery lists, chores, etc) but could also be used for larger personal initiatives.
+
+ 
+
+Overall Winner: Trello!
+We use Trello every single day for small, medium, large and personal projects.  It’s free, take < 2 minutes to create a workable board for a project w/ user stories + cards, and is simple enough for even the least tech-savvy client you’ve ever had 🙂  While some teams have to be able to measure and get reports on their progress each week, we feel as though this is still doable (not cleanly) through the “Agile for Trello” extension in the Chrome store + a few minutes of busy work on the PM.  Overall, there’s really not any core features missing from Trello (that can’t be found packaged in another tool we already use) so it was an easy choice for our team.
+
+ 
+
+PLEASE LET US KNOW YOUR THOUGHTS!  THE PROJECT MANAGEMENT SOFTWARE INDUSTRY IS SUPER COMPETITIVE, SO WE KNOW THERE’S A FEW WE’VE LEFT OUT!
+MAY 13, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+DEVELOPERS, GUIDES, WORKING REMOTELY
+Top 5 Sites for Finding a Remote ASP.NET / C# / Microsoft Stack Job
+
+ Remote_Microsoft_Stack_Jobs
+After repeated requests from users on the site, we decided to make a job board post on .NET.  However, we soon realized that we should also cover C# to make it more well rounded (like our inclusion of Django for Python), essentially making this a “Microsoft Stack Job Board”
+
+ASP.NET is developed by and runs on the Microsoft Windows operating system and has a set of 13 software packages and 7 different development models available to work with.  It’s an an open sourced, web and mobile app develop framework that isn’t regarded as a simple framework to get started with.
+
+For the most part, the developers you’ll find w/ experience are less the ‘hacker’, but have a CS / Computer Engineering background.  Further, we find that most developers using these frameworks have about 5+ years of experience programming (if not more) so at the very least, employers won’t be dealing with rookie developers making careless mistakes.
+
+#5. Indeed
+Pros
+
+Extremely Popular Job site (typically top ranking results for job searches)
+OK filter (enter “Remote, Telecommute, OR anywhere ” in location OR Keyword search)
+Decent number of opportunities
+Good Mix of Startup + Corporate
+Cons
+
+Is just an aggregator, you will have to apply on employer’s site
+Not Developer focused
+Lots of ‘noise’ to go through, and filter’s don’t work too well
+ 
+
+Overall
+
+Indeed/ SimplyHired aggregates from a huge amount of job boards, so it initially seems as if they have the most opportunities. However, since they only aggregate, interested .NET job seekers will still have to apply on the listing companies site, which is a huge time waste if you’re applying to many opportunities. The search function only returns opportunities that have ‘remote’ (or similar) in their subject line, but this still returns a decent amount. Overall, Indeed & similar job sites are average at best for finding remote .NET jobs, but they have the potential to be a great resource if they add a “remote” search box
+
+ 
+
+#4 Skip The Drive
+Pros
+
+Only Remote Opportunities, No need to filter jobs!
+Mostly corporate or agency positions
+Simple to navigate – Simple UX / UI
+Cons
+
+Limited opportunities + some opportunities are aggregated.
+Only a few startup opportunities.
+Average quality of opportunities (lower salary + perks than the other sites)
+Overall
+
+Skip the Drive had a surprising amount of opportunities (compared to other sites w/ .net), but it’s lacking any game-changing quality that would push it to the top 3 sites.  Skip the Drive had a good spread of opportunities, but we found the random opportunities that were aggregated a bit annoying amongst the other opportunities.  Either way, Skip the Drive is one to keep an eye on, but it’s currently not a ‘top’ site.
+
+#3. FlexJobs
+Pros
+
+Most popular .NET / C# job board (FT, PT, & Contract)
+Largest # of real opportunities (very low on recruiters)
+Well known (good marketplace)
+Mix of Corporate and Startup
+Cons
+
+Poor UI
+Have to become a member to apply
+COST (monthly fee to be a member)
+Overall
+
+At first, we didn’t think too much of flexjobs because the site looks a bit ‘spammy’ at first glance. However, they have a huge amount of C# / .NET Opportunities, more than all the other job boards. The one giant glaring weakness is that they charge job seekers a monthly subscription fee to apply to their positions. This allows them to have cheaper prices for employers to post opportunities, but is also quite annoying when nothing is guaranteed on the job seeker side. Nevertheless, if you’re really looking to get a new remote position, the monthly fee is nominal if you actually do apply to a ton of opportunities and use your payment to it’s full potential.:)
+
+#2. Stack Overflow Careers
+Pros:
+
+Number of truly remote posts (approx 50+)
+Quality of Employers: There’s some really solid employers posting great opportunities.
+Quality of Applicants: Through our experience hiring, we consistently found awesome applicants through Stack Overflow
+Application Management: Strictly for employers, but Stack Overflow has created a very simple way to manage applicants. Making it more likely that employers will stick with it.
+Cons:
+
+Price: $495 a post for employers, which limits the pool size.
+Awareness: We think they could draw more attention to it for developers
+Overall
+
+We’ve posted to many different job boards to help clients fill technical positions, but have always gotten the best .NET applicants and the highest volume through Stack Overflow. On the job seeker side, we always find a solid number of opportunities, fast responses from the employers, with a great mix of startup and corporate positions.
+
+Stack Overflow has positioned itself so well by creating two simple check boxes: one for employers, one for job seekers. In the job posting form (for employers) the following statement is below the ‘Telecommute’ checkbox–‘Check this only if you are considering candidates who will work entirely remotely’. Job seekers have the option to select ‘Allows remote’ in their locations 
+
+#1 Dice.com
+Pros
+
+Largest # of FT opportunities
+Well known in the Tech world
+US & a large number of international opportunities
+Good Filters
+Cons
+
+Some positions posted by recruiters (Cybercoders)
+Need to go into “Advanced” filters to find remote filter.
+Most positions require you to apply on company site (like Monster or CareerBuilder)
+Overall
+
+We were quite surprised by the # of great remote opportunities on Dice for .NET, but do know that it’s primarily used for a different audience than the Ruby / Startup type positions we post or look for ourselves.  One big weakness of Dice’s job seeker UX is that users need to go into advanced filters to check the ‘telecommute’ box, which we expect many users fail to do.  We’re not sure why this isn’t front & center on the location search (like Stackoverflow’s) but we’re sure they’ll add it at some time.  Finally, they could do a better job of finding startup opportunities, but we only know a handful of startups that use the Microsoft stack in the first place.
+
+ 
+
+Summary
+Dice.com out of nowhere for the win!  Dice is rarely a site we’d check for remote opportunities, but after a few conversations & research in the .NET community, we really didn’t think it was fair to put any other site as the top .Net job board. As mentioned above, we do highly suggest Dice moves their ‘telecommute’ checkbox to the first page, but that’s just preference.  For the others on the list, we didn’t find too many startup opportunities, but were pleasantly surprised by the decent # of choices on all the sites.  Overall, interested job seekers should check all the sites during their job search because we didn’t find too many similar choices amongst the sites.
+
+FURTHER, WE FOUND CREATING THIS LIST HARDER THAN SOME OF THE OTHER LANGUAGES AND FRAMEWORKS FOR A VARIETY OF REASONS, NAMELY OUR LACK OF EXPERIENCE RECRUITING .NET / C# / MICROSOFT ENGINEERS.  MOST OF THE DEVELOPERS WE WORK WITH STARTED WITH .NET OR PHP & THEN MOVED INTO RAILS AFTER IT REALLY START TO GROW AROUND 2010.  FURTHER, WE HAVEN’T REALLY MET ANY DEVELOPERS THAT HAVE ‘TOYED AROUND WITH .NET’ OR ARE INTERESTED IN LEARNING THE FOUNDATIONS OF IT, AND WE DON’T GET ASKED TO DEVELOP APPLICATIONS IN IT.  HOWEVER, IT’S MORE SECURE THAN SOME OTHER FRAMEWORKS & IS QUITE ESTABLISHED, AND WE DON’T REALLY SEE AN END IN SIGHT FOR IT.  FOR THESE REASONS, WE EXPECT MORE DISAGREEMENT IN THE COMMENTS THAN FOR OUR OTHER JOB BOARDS, BUT WELCOME ALL HELP IN CREATING THE PERFECT LIST!
+MAY 6, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+BLOG, INTERVIEW, WORKING REMOTELY
+Taking a five person start-up to a 100 remote employee workforce: An interview with Paul Hartge, COO of RevolutionEHR
+
+ Remote_working_Interview
+Remote Nation had the chance to speak with Paul Hartge of RevolutionEHR, the COO of a completely remote software company that has grown from small, modest beginnings to a country-wide operation. They offer cloud-based electronic health records for optometrists while solely connecting to their customers and employees via phone, skype, and the internet.
+
+RevolutionEHR is now home to over 100 employees and Paul gave us some insight on the challenges and benefits of being a growing remote business, what steps they currently take to stay connected with everyone in the company and why they decided to not get an office.
+
+Let’s start with the basics, what is RevolutionEHR? When did you guys start?
+We are a software company that provides electronic health records for optometrists. The company was founded in 2007.
+
+Did you work remotely before RevolutionEHR or have you worked in an office? If so, what was change like?
+My previous job was out of Toronto and I worked remotely for about five years prior to RevolutionEHR. Before that I worked in an office for nearly 20 years. Initially, the change required more rigid and careful planning for meetings since the impromptu office meeting was out of the question. I did find it easier to focus without all of the distractions that come with an office setting, though.
+
+What were the reasons behind starting a company remotely? Any big factors or was it just a desired quality with you and the rest of the team?
+Each of the founders was in a different city, so no one really wanted to make the bet on relocating. A lot of the work could be done independently among people as well. But mostly it was because all the founders were in different cities. And we didn’t have any money to fund an office.
+
+Can you tell me about the process you and your team underwent from start-up to a now well established company and how being remote played into that process? Was it a challenge or a gift?
+We have 100 employees now all working out of their houses, so there was a need for technology solutions once we got to ten or fifteen people.   We built a custom collaboration tool for posting information. It is an internal collaboration tool called “nerve center.” People can blog and communicate on it. It can be serious content or fun stuff. Everything from human resources to March Madness will be posted on it. It is sort of like a Facebook, but just for us.  It is definitely helpful for introducing new employees. Just an overall good way for people to stay connected.
+
+As we got bigger and bigger we needed to plan more physical meetings, so depending on the groups, we schedule quarterly or annually meetings. We do an annual meeting once a year in January where everyone gets together to plan for the next year. It’s like a beginning of the year kick off. Other than that, smaller groups will meet a couple times a year. We probably have employees in 20 states or so it is hard to get everyone together in one place.
+
+Down the line, it became apparent that we didn’t want to open an office, so when we hire new people there is the expectation that they are willing to always work remotely. So that may limit us to certain demographic, but we have the ability to pull from people across the whole country
+
+Now that you guys are out of startup mode, what are your reasons for staying completely remote?
+A couple things, one it would be hard to bring everything together since we are so spread out. And now it would be just kind of weird since we are so used to operating in a remote situation.
+
+From a recruiting perspective, we can hire anyone from everywhere, which I think it is a huge staffing advantage. We hire support personnel from optometry offices to have that insight. To try and hire all those people in one area would be extremely difficult. To be able to hire across the country is a huge advantage.
+
+With 100 employees it must be hard keeping in touch with everyone.  What are some strategies you use to keep in contact with everyone and manage them remotely?
+The technology aspect is definitely important. Skype, google, Grasshopper, those are all important for keeping in touch with everyone. But just as important, we like to empower our workers to be self-motivated and self-managing. It allows for a nice distribution of work.
+
+Any downsides with remote working that people should know if they are looking into remote work?
+From an individual’s perspective, I always try to make sure that people are aware of the social aspect of it. There is a bit of isolation, physically. The social aspect is taken out of it. The communication is all done online. So people that go on lunch breaks or coffee breaks with you is taken out of the mix most of the time. You also have to prepare yourself from the distractions at home.  Working at home is not an alternative for the need for day care.
+
+On an organizational level, the biggest difficulties, depending on the type of the business, is the perception that if you don’t have an office you aren’t a “real company.”  You have to keep in mind how you present yourselves to potential investors, clients and other companies so that you look like a real company and not a fake company! We do all of our customer selling and support online, so there is no reason for physical meetings. But if you need that physical aspect, the external image is important.
+
+Any distractions at home?
+Yeah, depending on your office environment there can be stuff that gets in the way. But it really comes down to how disciplined you are.
+
+What are things that keep you focused?
+I think the work itself keeps me focused. There are no real specific steps I take to make sure that I am focused. There is so much to do in a startup environment. I find it easier to focus when there aren’t people around. I just think of things that I need to do during the day and I just start cranking!
+
+Any technology you use that you just can’t live without now?
+We live and breathe in Skype all day long. We use GoToMeeting a lot. We use Salesforce extensively. We use Grasshopper too, which is a virtual phone system. But I am on Skype all day long. That is the one that I really couldn’t live without.
+
+Do you like to listen to music at home when working?
+Rarely, sometimes when I am doing really mundane work I will. But I am on the phone much of the day, so generally I don’t listen to music.
+
+With so many people all working remotely, has there been any funny stories worth sharing?
+There are the usual funny stories of people not realizing that the webcam is on and regretting that later. But there was a particular situation that caught us off guard.
+
+One customer’s software implementation wasn’t going well. There were just issues with the setup. So the unhappy customer looked on our website and came across the address where our physical mail was going to at the time. Since we had no office, this address was one of the owner’s home addresses! The customer Google-Earthed the address to see where the company was “located” and they got a house with a big lawn and a swimming pool! So that did not go over well with. I highly recommend a P.O. Box for remote startups.
+
+***
+
+IF YOU’D LIKE TO LEARN MORE ABOUT REVOLUTIONEHR, BE SURE TO VISIT THEIR SITE @ HTTP://WWW.REVOLUTIONEHR.COM/
+APRIL 29, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+DEVELOPERS, GUIDES, WORKING REMOTELY
+Top 6 Sites for Finding a Remote Python Job
+
+ Top_Remote_Python_Jobs
+Python is a language that is easy to read, can be used in a wide variety of ways, is scalable, but for whatever reason is not routinely talked about as a ‘go-to’ language.  We have friends in the industry who use python as their main language for creating quick scripts for marketing or other simple tasks, but we’ve yet to hear someone say ‘Our back-end is written in Python”
+
+Nevertheless, we had to do some major digging to find the best resources for remote python developers (check out this article in Hacker News about Python Jobs) but only found a handful of sites that seem worth it.  The following is what we found to be the top six sites for remote Python jobs.
+
+#6. Linkedin
+Pros
+
+Well known: Almost everyone has a Linkedin professional requirement
+Filter works in Keyword (will also have to try “telecommute”
+Huge # of opportunities
+Mostly Corporate jobs
+Cons:
+
+Not Developer focused (lots of clutter)
+TOO MANY CHOICES, awful filters (we counted 8k)
+Most of the positions are posted by recruiters (cybercoders specifically)
+Overall:
+
+We were surprised by the huge # of opportunities, but ultimately disappointed because 1/2’s of them were posted by CyberCoders (a tech consulting firm) & their truly awful filtering capabilities.
+
+However, since Linkedin has become the dominant social network for careers (and most people having a Linkedin Profile) it’s one of the most populous job boards. The best benefit (if you have a filled out profile) is you can apply directly to positions using your linkedin profile, so no resume is needed. Going forward, if Linkedin was to add a “remote’ checkbox as a filter criteria, we might move Linkedin to #1 on our list
+
+#5. Indeed / SimplyHired
+Pros
+
+Extremely Popular Job site (typically top ranking results for job searches)
+OK filter (enter “Remote, Telecommute, OR anywhere ” in location OR Keyword search)
+Decent number of opportunities
+Good Mix of Startup + Corporate
+Cons
+
+Is just an aggregator, you will have to apply on employer’s site
+Not Developer focused
+Lots of ‘noise’ to go through, and filter’s don’t work too well
+Overall
+
+Indeed/ SimplyHired aggregates from a huge amount of job boards, so it initially seems as if they have the most opportunities. However, since they only aggregate, interested Python job seekers will still have to apply on the listing companies site, which is a huge time waste if you’re applying to many opportunities. The search function only returns opportunities that have ‘remote’ in their subject line, but this still returns a decent amount. Overall, Indeed & similar job are average at best for finding remote Python jobs, but they have the potential to be a great resource if they add a “remote” search box
+
+#4 Skip The Drive
+Pros
+
+Only Remote Opportunities, No need to filter jobs!
+Mostly corporate or agency positions
+Simple to navigate – Simple UX / UI
+Cons
+
+Limited opportunities + some opportunities are aggregated.
+Only a few startup opportunities.
+Average quality of opportunities
+Overall
+
+Skip the Drive had a surprising amount of opportunities (compared to other sites w/ python), but it’s lacking any game-changing quality that would push it to the top 3 sites.  Skip the Drive is one to keep an eye on, but it’s currently not a ‘top’ site.
+
+#3 DjangoGigs
+Pros
+
+Large # of Python opportunities
+Well known in the Django world
+US & a large number of international opportunities.
+No Signup Necessary
+Great Design
+Cons
+
+Django Focused Board (not just Python)
+Overall
+
+DjangoGigs is a great job board for Django (we really couldn’t find any strong negatives) but since our list is for Python, we didn’t feel as though it was proper to put it as our #1.  Either way, props to the team at Djangogigs, they know how to make a simple, intuitive job board!
+
+#2. FlexJobs
+Pros
+
+Most popular Python job board (for all positions)
+Largest # of real Python opportunities (very low on recruiters)
+Well known (good marketplace)
+Mix of Corporate and Startup
+Cons
+
+Poor UI
+Have to become a member to apply
+COST (monthly fee to be a member)
+Overall
+
+At first, we didn’t think too much of flexjobs because the site looks a bit ‘spammy’ at first glance. However, they have a huge amount of Python Opportunities, more than every other job board site yet. The one giant glaring weakness is that they charge job seekers a monthly subscription fee to apply to their positions. This allows them to have cheaper prices for employers to post opportunities, but is also quite annoying when nothing is guaranteed on the job seeker side. Nevertheless, if you’re really looking to get a new remote position, the monthly fee is nominal if you actually do apply to a ton of opportunities and use your payment to it’s full potential.:)
+
+ 
+
+#1. Stack Overflow Careers
+Pros:
+
+Number of truly remote posts (approx.): High (49 Python)
+Quality of Employers: There’s some really solid employers posting great opportunities.
+Quality of Applicants: Through our experience hiring, we consistently found awesome applicants through Stack Overflow
+Application Management: Strictly for employers, but Stack Overflow has created a very simple way to manage applicants. Making it more likely that employers will stick with it.
+Cons:
+
+Price: $495 a post for employers, which limits the pool size.
+Awareness: We think they could draw more attention to it for developers
+Overall
+
+We’ve posted to many different job boards to help clients fill technical positions, but have always gotten the best Python applicants and the highest volume through Stack Overflow. On the job seeker side, we found a solid number of opportunities, and it was a great mix of startup and corporate positions.
+
+Stack Overflow has positioned itself so well by creating two simple check boxes: one for employers, one for job seekers. In the job posting form (for employers) the following statement is below the ‘Telecommute’ checkbox–‘Check this only if you are considering candidates who will work entirely remotely’. Job seekers have the option to select ‘Allows remote’ in their locations
+
+ 
+
+Summary
+Similar to our Ruby Board, Stack Overflow won because of it’s superior interface, volume & quality of opportunities, and the popularity / trust of the site.  There isn’t that much buzz for Python these days, and most of the Python sites we reviewed had a design similar to what was commonplace for the internet in the mid 2000’s.  We’re not sure if these site owners just don’t want to reinvest in their sites because they know the language is losing popularity, or just plain laziness.
+
+FURTHER, WE FOUND CREATING THIS LIST HARDER THAN SOME OF THE OTHER LANGUAGES AND FRAMEWORKS FOR A VARIETY OF REASONS, NAMELY OUR LACK OF EXPERIENCE RECRUITING PYTHON ENGINEERS.  OVER THE PAST FEW YEARS, WE ROUTINELY WORK WITH DEVELOPERS THAT “KNOW SOME PYTHON” & EITHER USED IT WHEN THEY WERE FIRST STARTING OUT, OR WORKED WITH IT SINCE IT WAS THE LEGACY CODE THEY INHERITED IN AN OLD POSITION. WE HAVEN’T MET ANY DEVELOPERS THAT HAVE ‘TOYED AROUND WITH PYTHON’ OR ARE INTERESTED IN LEARNING THE FOUNDATIONS OF IT, AND WE DON’T GET ASKED TO DEVELOP APPLICATIONS IN IT.  FOR THESE REASONS, WE EXPECT MORE DISAGREEMENT IN THE COMMENTS THAN FOR OUR OTHER JOB BOARDS, BUT WELCOME ALL HELP IN CREATING THE PERFECT LIST!
+APRIL 27, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+ADVICE, OFFICE, WORKING REMOTELY
+Can’t Focus while working from Home? Music might help…
+
+ Music_Working_Remotely
+Ever wonder what can help you ignore those pesky distractions and help you hunker down with your work at home? Well, research shows that putting on your trusty headphones might do the trick. While many of us need complete silence in order to work productively, putting on the right type of music may help you reach the finish line.
+
+However, finding the “right type” of music can be tricky. There are different types of work out there, which call for different kinds of music. We explored a number of studies on the connections between work productivity and music. Throughout these studies, two distinct styles of work continued to pop up: tedious work and creative work. We summarized some important findings to help you reach that harmonious sweet spot between work and music.
+
+Music for Tedious Tasks
+Some work may not always call for significant brain power and it’s during these times when the music you love can come in handy.
+
+In 2005, Teresa Lesiuk of University of Windsor released a study that focused on the effects of music on work productivity. Data was collected from 56 software designers who reported how music affected their work in their respective work environments during a five week period.
+
+“Results indicated that state positive affect and quality-of-work were lowest with no music, while time-on-task was longest when music was removed. Narrative responses revealed the value of music listening for positive mood change and enhanced perception on design while working” said Lesiuk.
+
+Her findings support that listening to music you like improves your mood and morale, which can increase your productivity. The music serves as a healthy distraction for when you are slogging through paperwork. So if you see your inbox is chalked full with new emails, by all means, crank it to 11.
+
+Suggestions
+Before you play your music of choice, make sure it is something that you already know. Listening to a new song, whether it is good or bad may distract you from completing your work. In other words, familiarity is the key here. If you are dying to listen to that new song by your favorite artist, use that desire as a reward and motivate yourself by listening to their earlier songs while working.
+
+Music for Creativity
+On the other end of the spectrum there’s creative work. Creative work requires a specific kind of music.  Clearly, you don’t want music that will be distracting to your creative process, but sound can still be a creative stimulus for your brain.  An effective medium between total silence and loud rhythmic music is soft, ambient music.
+
+A study published in 2012 shows how ambient noise can help people with creativity. Through five experiments they observed the exact number of decibels when ambient noise and music can be beneficial to workers and their creativity.
+
+The authors summarized, “Results from five experiments demonstrate that a moderate (70 dB) versus low (50 dB) level of ambient noise enhances performance on creative tasks and increases the buying likelihood of innovative products.”
+
+The sounds arouse the brain, which leads to creativity. It acts as a constant stimulant for your brain, which then makes other noises, like your dishwasher, not as distracting. But, if the music or noise is too loud it can distract you, inhibiting the creative process.
+
+The authors said “A high level of noise (85 dB), on the other hand, hurts creavity.”
+
+Suggestions
+So if you are trying to get some magic on paper, artists like Aphex Twin or Brian Eno can be of great service to help you focus. They both have albums with select “Ambient Works” on them, so they are safe bets. Or try listening to nature’s music or some white noise since these will provide the same effect. 
+
+What to Avoid
+Ever been really focused on a speaker then all of a sudden your attention drifts to the people behind talking about their weekend plans?   Imagine this scenario, but with John Lennon singing in your ear. We’ve looked at to how music can be helpful when working, but there are still times when music may not be so helpful, overall.
+
+Generally, you should avoid music with lyrics if you are working on something that is demanding. Lyrics have the tendency to grab our attention and prevent us from fully focusing on the task at hand. A recent study done in 2012 looked at the effects of music with lyrics and without lyrics on 102 participants’ concentration. They found that music with lyrics negatively affected the participants’ concentration.
+
+Additionally, music can also be a hindrance when trying to learn something new. There’s a reason why teachers don’t blast metal when trying to teach business calc. It has the same effect of multi-tasking. You cannot give 100 percent of your attention to one thing if you are also focused on something else.
+
+Summary
+If you find yourself not being able to focus for whatever reason, try listening to music and see what is best for you. But, keep in mind that some music can be more harmful than good.
+
+Suggestions to keep in mind:
+
+If you find yourself losing steam, try playing music that you think will help you get through your work. If you end up air playing air guitar, then you might want to find something else.
+
+When trying to come up with ideas for your next project give ambient music or ambient sounds a try. Songza is a great site that provides a wide array of music and sounds based on the activities you’re doing, including streams like white noise and “In a Quiet Park.”
+
+Try to avoid music with lyrics, since they prove to be distracting. Especially if something calls for your undivided attention.
+
+AND IF YOU FIND THAT MUSIC IS JUST TOO DISTRACTING, THEN STICK WITH SILENCE SINCE THAT IS WHAT WORKS FOR YOU. IN THE END, IT’S ALL ABOUT WHAT HELPS YOU GET YOUR WORK DONE WELL AND EFFICIENTLY. 
+APRIL 23, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+DEVELOPERS, GUIDES, HIRING, WORKING REMOTELY
+Top 7 Sites for Finding a Remote PHP / Lamp Stack Job
+
+ Top_PHP_Remote_Jobs
+PHP is a language that is not as ‘sexy’ as it once was, and is definitely not the wave of the future.  However, php is the framework for many popular applications (Facebook, Yahoo, WordPress) and is one of the first languages that many developers learned.  Unlike Ruby on Rails, which preaches Convention over Configuration, many developers like the flexibility of writing PHP, but it’s also why many programmers think that even‘good’ php looks messy.
+
+However, the PHP as a server side language isn’t going down easily.  Wordpress is positioning itself as the strongest CMS, and is built on PHP.  This means that unless something rapidly changes, there is still going to be an extremely large majority of the web written in this language for years to come.
+
+Similar to our other job boards, many have pretty poor filters for truly 100% php remote jobs (without some crafty keyword searching) but we’ve done the majority of the heavy lifting for you 🙂  For these reasons and more, we find the following to be the Top 5 best sites for finding a remote php job.
+
+#7. PHP Classes
+Pros
+
+Large # of PHP opportunities (avg. # on recruiters)
+Well known in the PHP world (because of it’s classes & scripts)
+Mix of Corporate and Startup
+Fulltime + Contractual po
+Cons
+
+Poor UI
+Opportunities list is cluttered: mix of corporate, startup, contract, and international opportunities
+Have to become a member to apply
+Overall
+
+We have more experience with other languages and frameworks, so we had to do a bit of digging to find phpclasses. At first glance, it looked very promising, but we could eventually tell that (for whatever reason) there’s not as much time or attention given to the site as there was at some point.  The majority of the opportunities are international, and aren’t “premium”, leaving much to be desired for a great developer.  Essentially, if you’re looking for a high-end position w/ great pay, stock options, good perks, etc; then this isn’t the site for you.
+
+#6. Indeed.com / SimplyHired.com
+Pros
+
+Extremely Popular Job site (typically top ranking results for job searches)
+OK filter (enter “Remote, Telecommute, OR anywhere ” in location OR Keyword search)
+Decent number of opportunities
+Good Mix of Startup + Corporate
+Cons
+
+Is just an aggregator, you will have to apply on employer’s site
+Not Developer focused
+Lots of ‘noise’ to go through, and filter’s don’t work too well
+Overall
+
+Indeed / SimplyHired aggregates from a huge amount of job boards, so it initially seems as if they have the most opportunities. However, since they only aggregate, interested php job seekers will still have to apply on the listing companies site, which is a huge time waste if you’re applying to many opportunities. The search function only returns opportunities that have ‘remote’ in their subject line, but this still returns a decent amount. Overall, Indeed & similar job are average at best for finding remote php jobs, but they have the potential to be a great resource if they add a “remote” search box
+
+#5. Authentic Jobs
+Pros
+
+Built for Remote & Contract type Jobs
+Decent Mix of Startup & Corporate opportunities
+Best Filter among all of the sites we’ve reviewed.
+Good Design
+Good Quality Positions
+Cons:
+
+Very few PHP positions (5)
+No junior or entry level positions, only senior and experienced
+Overall
+
+This site has earned a reputation for the quality of its posts, and is well known amongst developers and designers. (i.e Employers can expect a decent # of applicants applying to their jobs) As with stackoverflow, there is a checkbox to tag the post as a telecommuting position, ‘Work can be done from anywhere (i.e. telecommuting)’. The other bonus here is filtering that allows you to separate out full-time jobs, contract, internship, etc. However, with all these great features, there’s still a limited # of php opportunities, but the process is great if interested in that list.
+
+ 
+
+#4. WeWorkRemotely.com (37Signals)
+Pros
+
+Only Remote Opportunities, No need to filter jobs!
+Well known for remote – 37Signals has written extensively on the topic
+Many Startup opportunities
+Simple to navigate – Simple UX / UI
+Cons
+
+Limited opportunities (we counted 8)
+Too Simple for employer profiles: There’s limited space to describe the position.
+Mostly Startup Opportunities: Lacking corporate jobs.
+Overall
+
+The posts are of good quality, but for a company that is such a large proponent of remote working, we think they should have more positions & better filter’s, but a 2.0 could be in the works.  WeWorkRemotely has a good mix of php + Lamp opportunities, which all seem to have great benefits.  Overall, solid site that should be every job seeker’s list.
+
+ 
+
+#3. Linkedin
+Pros
+
+Well known: Almost everyone has a Linkedin professional requirement
+Filter works in Keyword (will also have to try “telecommute”
+Huge # of opportunities
+Mostly Corporate jobs
+Cons:
+
+Not Developer focused (lots of clutter)
+Too many choices, not good enough filters
+Most of the positions are posted by recruiters.
+Overall:
+
+We were surprised by the huge # of opportunities, but ultimately disappointed because 1/2’s of them were posted by CyberCoders (a tech consulting firm). However, since Linkedin has become the dominant social network for careers (and most people having a Linkedin Profile) it’s one of the most populous job boards. The best benefit (if you have a filled out profile) is you can apply directly to positions using your linkedin profile, so no resume is needed. Going forward, if Linkedin was to add a “remote’ checkbox as a filter criteria, we might move Linkedin to #1 on our list
+
+#2. FlexJobs
+Pros
+
+Most popular php job board (for all positions)
+Largest # of real php opportunities (very low on recruiters)
+Well known (good marketplace)
+Mix of Corporate and Startup
+Cons
+
+Poor UI
+Have to become a member to apply
+COST (monthly fee to be a member)
+Overall
+
+At first, we didn’t think too much of flexjobs because the site looks a bit ‘spammy’ at first glance. However, they have a huge amount of php Opportunities, more than every other job board site yet. The one giant glaring weakness is that they charge job seekers a monthly subscription fee to apply to their positions. This allows them to have cheaper prices for employers to post opportunities, but is also quite annoying when nothing is guaranteed on the job seeker side. Nevertheless, if you’re really looking to get a new remote position, the monthly fee is nominal if you actually do apply to a ton of opportunities and use your payment to it’s full potential.:)
+
+ 
+
+#1. Stack Overflow Careers
+Pros:
+
+Number of truly remote posts (approx.): Highest (62 total) (49 PHP)
+Quality of Employers: There’s some really solid employers posting great opportunities.
+Quality of Applicants: Through our experience hiring, we consistently found awesome applicants through Stack Overflow
+Application Management: Strictly for employers, but Stack Overflow has created a very simple way to manage applicants. Making it more likely that employers will stick with it.
+Cons:
+
+Price: $495 a post for employers, which limits the pool size.
+Awareness: We think they could draw more attention to it for developers
+Overall
+
+We’ve posted to many different job boards to help clients fill technical positions, but have always gotten the best php applicants and the highest volume through Stack Overflow. On the job seeker side, we found the highest number of opportunities, and it was a great mix of startup and corporate positions.
+
+Stack Overflow has positioned itself so well by creating two simple check boxes: one for employers, one for job seekers. In the job posting form (for employers) the following statement is below the ‘Telecommute’ checkbox–‘Check this only if you are considering candidates who will work entirely remotely’. Job seekers have the option to select ‘Allows remote’ in their locations
+
+
+Summary
+Similar to our Ruby Board, Stack Overflow won because of it’s superior interfacet, volume & quality of opportunities, and the popularity / trust of the site.  There isn’t that much buzz for PHP these days, and most of the php sites we reviewed had a design similar to what was commonplace for the internet in the mid 2000’s.  We’re not sure if these site owners just don’t want to reinvest in their sites because they know the language is losing popularity, or just plain laziness.
+
+Further, we found creating this list harder than some of the other languages and frameworks for a variety of reasons, namely our lack of experience recruiting PHP engineers.  Over the past few years, we routinely work with developers that “know some php” & either used it when they were first starting out, or worked with it since it was the legacy code they inherited in an old position. We haven’t met any developers that have ‘toyed around with PHP’ or are interested in learning the foundations of it, and we don’t get asked to develop applications in it.  For these reasons, we expect more disagreement in the comments than for our other job boards, but welcome all help in creating the perfect list!
+
+ 
+APRIL 17, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+BLOG, GUIDES, TOOLS, WORKING REMOTELY
+The Best Video Conferencing Solutions for Businesses and Remote Teams
+
+ best_video_conferencing
+What is the best video conferencing tool for business & remote teams? We get this question a lot, and it’s a tool we use for the majority of our day, everyday. For a long time, it was hard to find a good video conferencing tool that actually added value to the interactions of a remote team. Now there are finally a number of viable options serving different needs, so we’ve created a series of categories winners, allowing you to pick the best tool for your needs. To get the most out of your video conferencing solution, we recommend checking out our article on the best audio and video setup for remote teams.
+
+We’ve divided our review into the following categories: Large Teams, Small Teams, Cost Sensitive, 1 on 1’s & overall winner.
+
+Best Video Conferencing Tools for Large Teams
+ 
+
+1st Place: Zoom.us
+At FullStack, we typically have monthly release planning meetings with our biggest clients.  Our biggest client, Higher Learning Technologies, asked if their department heads could be on the call, in addition to the development team. We were already at about 9 people at that point without the other department’s, and the Google Hangout quality was not sufficient and had a hard limit of 10 participants. After extensive research, we found that Zoom.us was the best for large teams because of:
+
+Positives:
+
+Quality of the Audio – Light on the background noise, and very few problems throughout our many calls.
+Quality of the Video – Consistent video
+Chat functionality- an easy to use chat if you need to share links to drive folders or URLS
+Recordable – Users are able to download the entire conference (with Audio + Video) for later reference or to share if people weren’t present.
+Screen sharing – Zoom also allows users to share screens, great for large conference calls.
+Up to 100 video people on a call
+Negatives:
+
+Cost. Zoom is relatively cheap if you use the service every day, or @ least on a consistent pattern, or if you’re not paying for it 🙂
+2nd Place: Skype
+In second place is Skype, but it seems as though Microsoft is making Skype a priority once again and the feature set & price is starting to improve. Most people in the US have a skype account (even if they barely use it) but it’s much more popular across the world. Skype was the first VOIP startup and defined the category, but has been pretty light on its extra features.
+
+Positives:
+
+Best Video & Sound Quality
+Popular – Most people already have it installed on their computer, so there’s rarely a messy installation process.
+Mobile – Skype has both iOS and Android apps, allowing you to continue (or begin) your call through your phone.
+Price – Free!  Skype recently made their group calls free
+Screen Sharing – Skype has the capability to share your calls w/ others.
+Negatives:
+
+App Based – Skype is a desktop application, so even though most people have it already installed, there’s some friction to getting a call started.
+Limit on Group size – Like Hangouts, there’s a limit of 10 people per call.
+Overall, Skype is an awesome option, but there were some things that are better suited for large teams / conferences with Zoom. Interestingly, Skype is creating a feature that ‘instant translates’ your language into another if you’re speaking w/ someone from a different country.  We can’t wait to use that!
+
+3rd Place: Google Hangouts
+Our 3rd place finisher, Google Hangouts, is also the most convenient. Google Hangouts has great audio & video, but is very inconsistent w/ quality. We’ve had calls that were flawless from start to finish, but also seem to be asking each other ‘Can you hear me” for a minute (of wasted time) at the start of about one third of our calls (Quick Tip = We find that taking your headset out & plugging it back in usually fixes this). Although Hangouts is more reliable when headsets aren’t used, audio quality suffers.
+
+Hangouts does have many features, such as chat, sharing a screen & inviting people via a phone number.  There’s also some fun features that allow you to add faces and mustaches (for example) w/ their Draw feature.
+
+Positives:
+
+Web Based
+Mobile App
+Screen Share
+Extra Features
+Negatives:
+
+Quality w/ Volume – The biggest flaw of Google Hangouts is that the quality of both the audio and video diminishes w/ the # of people on the call, and we routinely see people that drop off.
+There’s a max of 10 people on a Group Video Call. 
+Hence, the stability most of the time and the convenience factor (it’s a total web application, nothing needs to be installed) makes Hangouts our 3rd place.
+
+ Honorable Mention: AnyMeeting
+We recently tried AnyMeeting which has a lot of good features, but is ultimately lacking in elite quality of audio. Anymeeting has 2 options, free (ad-supported) and paid, but if you can put up w/ the ads, the free version should be all you need.
+
+Positives:
+
+Free – Ad supported version allows you to do almost everything you need.
+Up to 200! users on a call
+Features – ScreenSharing, chats, custom surveys, etc.
+Negatives:
+
+Quality – Not the best
+Inverted camera – This is nitpicky, but all the other services use the same angle, and this really throws me off 😛
+Overall, if AnyMeeting invested more into the sound quality and made the actual video screen sizes larger, this could compete w/ any of our Top 3.
+
+Best Video Conferencing for Small Teams
+ 
+
+1st Place: Google Hangouts
+Hangouts is the winner because the primary negative isn’t a factor (audio & video quality diminishing w/  the # of people). The convenience factor of most people having Gmail, or having gmail as their work email, outweighs the quality of Skype. It’s very easy to schedule a calendar invite (through google calendar) and then use that link for everyone.
+
+2nd Place: Skype
+In a close second, Skype’s superior quality shines once again. We can safely assume that small teams have each other’s skype names, and can continue using their skype ‘group’ for calls & to hold all their chats. 
+
+Overall, it’s hard for us to really recommend any other services simply because of the convenience, quality, features, and lack of negatives of Skype + Hangouts.
+
+Best “Cost Sensitive” Video Conferencing Solutions
+ 
+
+We understand that startups, small businesses, and individuals typically like to save their resources (aka $$) for other essentials, when ‘free’ services are available. However, the services on the following list shouldn’t be looked at as inferior as to the other options. Rather, we think that the features list + the free aspects still make these excellent options for users in the need for video conferencing solutions.
+
+Tie for 1st Place: Skype
+Skype is once again a winner because of it’s premier quality, popularity, and features.  For most situations, skype’s product suite is a perfect fit
+
+Tie for 1st Place: AnyMeeting
+AnyMeeting is a very close second to skype because it has almost every feature a user would need to host large scale conference calls (up to 200), have good quality team calls / chats or to share screens.  While the ads can be somewhat annoying after awhile, the ability to have 200 people for an unlimited time is an extremely great value and makes up for any shortcomings.
+
+3rd Place: Google Hangouts
+Hangouts is in 3rd place because the quality does not compete w/ Anymeeting, nor their features w/ AnyMeeting. The convenience of Hangouts is always a huge plus, but we can assume that those who are cost-sensitive don’t mind taking one extra step to get a feature they need or have a problem with ads.
+
+Best Video Conferencing for “1 on 1” Meetings
+1 on 1’s, or just quick chats between two people are definitely the most common type of video call or chat, but really come down to two things: convenience & speed. Sometimes a quick 5 minute call is infinitely better than a 20 minute email, but it’s obviously based on the situation.  For this review, we’ve assumed that the two users speak to each other frequently.
+
+1st Place: Hangouts
+This is the only category where we find that Hangouts is a clear #1 and shines above the rest.  Most of the quick 1on1’s we have are the result of a miscommunication through chatting, either on Slack or Hangouts, and it’s incredibly easy to stop chatting and just ask “hey, want to have a quick call to figure this out?”, & press the video call. However, one big drawback of Hangouts Calls is that all chats during the call are not saved. We’re not sure why this feature isn’t updated, but we’re sure google is on it 🙂
+
+2nd Place: Skype
+The consistently awesome Skype jumps into the #2 spot here, simply because our common chat situation which we explained in our Hangouts review.  However, if you typically have Skype open on your desktop, and don’t use hangouts, then we suggest Skype as your #1. 
+
+3rd Place: Built-in Service
+Our #3 might be a head scratcher to some, but it all is based around our main criteria for greatness in this category, convenience & speed. We’ve decided to not select one application, but a few that are built into some very popular other services.
+
+Hipchat – If you only use Hipchat as your communication tool, then you’ll love how quickly you’ll be able to do a Hipchat Video.   The quality is average, but it’s acceptable for 10 minute calls and under.  The only drawback is that it’s only available w/ their premium package.
+Facetime – We’ve only used Facetime a handful of times, mostly when one of our other tools aren’t working.  Facetime should be getting more popular since Apple has worked it into Yosemite (their new Operating System Version) and people are just getting the hang of it.  The biggest positive is that many people have Macbook’s for work (in the tech world) as well as an iphone.  However, the biggest drawback is that it’s not available for those without Apple products.
+Slack– TBD – Slack recently acquired screenhero, which we’ve used a few times in the past.  We currently use Slack as our main chat application, and can safely assume that the integration w/  screenhero will make video calls seamless.  Slack might move up in the charts soon, but only time will tell!
+Overall Winner 
+Google Hangouts! There are many different use cases for having a video chat, but the convenience, cost, quality, and built-in functionality of Hangouts makes it the best overall choice for teams both big and small. We did consider Skype because of their superior quality for video and audio, but Skype didn’t have the overall feature set of Hangouts.
+
+WE DO EXPECT THAT THIS LIST WILL CHANGE OVER TIME, SO PLEASE LET US KNOW WHAT YOU THINK OF OUR RANKINGS!
+APRIL 13, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+ADVICE, BLOG, WORKING REMOTELY
+Remote Working: On the Rise & Creating Happier Employees
+
+ remote_working_happy_employees
+A recent study by AccountTemps of 2,100 CFO’s across the US said 35% of their companies have increased remote work opportunities in the last three years, but only 3% have decreased the number of opportunities.
+
+Employees like the flexibility of working remotely, but employers are also seeing a variety of benefits. The study revealed that the 35 % of the executives surveyed see higher employee morale and greater retention rates as the primary advantages of offering remote-work options, and 28 percent said the best aspect is an increase in productivity by eliminating commute time.
+
+Other benefits employers cite include the ability to save money on office space and gaining access to a broader talent pool when hiring.
+
+Bill Driscoll, a district president of Accountemps, recently said in a statement “Although telecommuting isn’t suitable for every role, it can be a powerful incentive for employees who want greater flexibility. It offers other advantages to businesses, such as greater productivity, cost savings on office space, the ability to tap into talent in different geographical areas and time zones, and more around-the-clock client service.”
+
+Accountemps offered several tips for employers thinking about setting up a remote workforce:
+
+Security:  Since Employees will be working from home, Employers need to make sure that all confidential and important documents and information is secure from the home office.  Each company will have their own requirements for this, but employers must create some security baseline.
+
+Promote it!:  Working remotely is a HUGE plus for many employees, even if it’s just a day or two a week.  Companies need to promote their remote opportunities  (full remote or part-time) to increase the scope of their talent pool
+
+Communication: Setting up proper communication channels is a must for remote workers.  There are plenty of video conferencing, business focused chat tools, + normal email & phone calls that allow this, but it’s something that needs to be normalized ASAP for new employees.
+
+Guidelines: Employers must set guidelines on how employees must work from home.  This is highly dependent on the job, but could require the employee to track their time, to have a few calls w/ their manager, or whatever makes the most sense for their environment.
+
+Expectations:  Employers need to clearly explain expectations for remote workers, so employees don’t view it as ‘day off’ from their normal schedule.  Ideally, since there’s much less of a commute time and less distraction, employees should exceed their normal work capacity on these days.  However, all this needs to be communicated to the employee.
+
+Overall, we at Remote Nation see this as just another set of hard data that proves remote working is on the rise and provides tangible benefits to both employees and employers.
+
+Please let us know what you think of this article in the comments!
+
+ 
+APRIL 7, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+DESIGNERS, DEVELOPERS, GUIDES, WORKING REMOTELY
+Top 7 Sites for Finding a Remote Ruby / Ruby on Rails Job
+
+ Ruby_on_Rails_Remote
+THERE ARE A LOT OF JOB SITES OUT THERE FOR RUBY DEVELOPERS, BUT ONLY A FEW OF THEM EVEN BOTHER TO IDENTIFY REMOTE / TELECOMMUTE JOBS. WITHIN THAT SMALL SET, FAR FEWER OF THEM ACTUALLY ALLOW YOU TO FILTER FOR TRULY 100% REMOTE JOBS WITHOUT SOME CRAFTY KEYWORD SEARCHING.
+
+Ruby and the Rails framework have been consistently growing in popularity for almost a decade now. Rails is popular for its’ ability to let developers quickly create simple web applications, making it perfect for most startups. Also, Ruby’s easy to read syntax makes it popular among both beginners and advanced programmers for API’s & other web based applications. Typically, employers will look for Ruby programmers with a knowledge of HTML / CSS & Javascript, and experience with another server side language is taken as a big plus. Finally, we’ve seen a rise of employers requesting experience with mobile, usually writing API’s for native iOS & Android applications in Ruby.We expect that Ruby will continue to grow in popularity over the next few years, especially because of the ‘lean startup movement’. For these reasons and more, we find the following to be the Top 7 best sites for finding or posting a remote Ruby / Ruby on Rails job.
+#7. Indeed
+Pros
+Extremely Popular Job site (typically top ranking results for job searches)
+OK filter (enter “Remote” in location)
+Decent number of opportunities
+Good Mix of Startup + Corporate
+Cons
+Is just an aggregator, you will have to apply on employer’s site
+Not Developer focused
+Lots of ‘noise’ to go through, and filter’s don’t work too well
+Overall
+Indeed aggregates from a huge amount of job boards, so it initially seems as if they have the most opportunities. However, since they only aggregate, interested job seekers will still have to apply on the listing companies site, which is a huge time waste if you’re applying to many opportunities. The search function only returns opportunities that have ‘remote’ in their subject line, but this still returns a decent amount. Overall, Indeed & similar job are average at best for finding remote Ruby jobs, but they have the potential to be a great resource if they add a “remote” search box
+
+#6. Github
+Pros
+Almost every developer uses Github as their code repository
+“Remote” works in Location
+Clean UI
+Cons
+Extremely limited ruby choices
+Overall
+We expected Github to have more listings because of the huge amount of developers that already use the site, but it was surprisingly low. We’ve posted opportunities ourselves, and didn’t think the applicants were as strong as some other sites, so maybe it’s just not a feature that’s marketed well on github. Either way, if they decide to make this more of a priority and developers take to it, this could be a powerhouse site.
+
+#5. WeWorkRemotely.com (37Signals)
+Pros
+Only Remote Opportunities, No need to filter jobs!
+Well known for remote – 37Signals has written extensively on the topic
+Many Startup opportunities
+Simple to navigate – Simple UX / UI
+Cons
+Should be more Ruby opportunities (for a site dedicated to it, by the guys who made Rails)
+Too Simple for employer profiles: There’s limited space to describe the position.
+Mostly Startup Opportunities: Lacking corporate jobs.
+Overall
+The posts are of good quality, but for a company that is such a large proponent of remote working, we think they should have more positions. Also, they have a ‘is this position not remote?’ flag, but they should manually be going through the job board each day.
+
+#4. Authentic Jobs
+Pros
+Built for Remote & Contract type Jobs
+Decent Mix of Startup & Corporate opportunities
+Best Filter among all of the sites we’ve reviewed.
+Good Design
+Good Quality Positions
+Cons:
+Very few Ruby positions (3)
+No junior or entry level positions, only senior and experienced
+Overall
+This site has earned a reputation for the quality of its posts, and is well known amongst developers and designers. (i.e Employers can expect a decent # of applicants applying to their jobs) As with stackoverflow, there is a checkbox to tag the post as a telecommuting position, ‘Work can be done from anywhere (i.e. telecommuting)’. The other bonus here is filtering that allows you to separate out full-time jobs, contract, internship, etc. However, with all these great features, there’s only a limited # of Ruby opportunities.
+
+#3. Linkedin
+Pros
+Well known: Almost everyone has a Linkedin professional requirement
+Easy to filter (enter “Remote” in location)
+Huge # of opportunities
+Mostly Corporate jobs
+Cons:
+Not Developer focused (lots of clutter)
+Too many choices, not good enough filters
+Most of the positions are posted by recruiters.
+Overall:
+We were surprised by the huge # of opportunities, but ultimately disappointed because 1/2’s of them were posted by CyberCoders (a tech consulting firm). However, since Linkedin has become the dominant social network for careers (and most people having a Linkedin Profile) it’s one of the most populous job boards. The best benefit (if you have a filled out profile) is you can apply directly to positions using your linkedin profile, so no resume is needed. Going forward, if Linkedin was to add a “remote’ checkbox as a filter criteria, we might move Linkedin to #1 on our list
+
+#2. FlexJobs
+Pros
+Most popular Remote job board (for all positions)
+Largest # of real ruby opportunities (very low on recruiters)
+Well known (good marketplace)
+Mix of Corporate and Startup
+Cons
+Poor UI
+Have to become a member to apply
+COST (monthly fee to be a member)
+Overall
+At first, we didn’t think too much of flexjobs because the site looks a bit ‘spammy’ at first glance. However, they have a huge amount of Ruby Opportunities, more than every other job board site yet. The one giant glaring weakness is that they charge job seekers a monthly subscription fee to apply to their positions. This allows them to have cheaper prices for employers to post opportunities, but is also quite annoying when nothing is guaranteed on the job seeker side. Nevertheless, if you’re really looking to get a new remote position, the monthly fee is nominal if you actually do apply to a ton of opportunities and use your payment to it’s full potential.:)
+
+The Winner: #1. Stack Overflow Careers
+Pros:
+Number of remote posts (approx.): Highest (62)
+Quality of Employers: There’s some really solid employers posting great opportunities.
+Quality of Applicants: Through our experience hiring, we consistently found awesome applicants through Stack Overflow
+Application Management: Strictly for employers, but Stack Overflow has created a very simple way to manage applicants. Making it more likely that employers will stick with it.
+Cons:
+Price: $495 a post for employers, which limits the pool size.
+Awareness: We think they could draw more attention to it for developers
+Overall
+We’ve posted to many different job boards to help clients fill technical positions, but have always gotten the best Ruby applicants and the highest volume through Stack Overflow. On the job seeker side, we found the highest number of opportunities, and it was a great mix of startup and corporate positions.
+
+Stack Overflow has positioned itself so well by creating two simple check boxes: one for employers, one for job seekers. In the job posting form (for employers) the following statement is below the ‘Telecommute’ checkbox–‘Check this only if you are considering candidates who will work entirely remotely’. Job seekers have the option to select ‘Allows remote’ in their locations
+
+Summary
+We’ve posted opportunities on many of these sites & other team members have used them in the past for new opportunities, but we were quite surprised by the results. A few “Ruby Only” job boards that we’ve used in the past either didn’t have remote opportunities, or only had a handful of actual positions. Further, some developer job boards we’ve used in the past (some very large ones..) simply had awful searches for remote ruby positions, but we assume this is a reflection of the market & the types of companies that post to those sites. Nevertheless, we expect this list to dynamically change over time, and we will update it to reflect these changes.
+
+POST IN THE COMMENTS IF YOU THINK WE’RE MISSING ANY GREAT RESOURCES & WHY!
+ 
+MARCH 29, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+ADVICE, BLOG
+Office Free? How to go 100% Remote
+
+ Office_Free_Team
+WERE YOU EVER CURIOUS ON HOW YOU CAN TAKE YOUR OFFICE 100% REMOTE? NEIL PATEL HAS WRITTEN A GREAT ARTICLE ON THAT TOPIC AND HAS PRESENTED 6 QUICK TIPS ON HOW TO CREATE THIS PERFECT ENVIRONMENT.THE TREND OF WORKING REMOTELY IS GROWING, AND WE DON’T EXPECT IT TO STOP FOR A LONG TIME. THERE’S MANY WAYS TO CREATE A SUCCESSFUL REMOTE WORK ENVIRONMENT FOR BOTH YOURSELF AND YOUR TEAM, BUT NEIL PATEL, FOUNDER OF QUICKSPROUT, CRAZYEGG, & KISSMETRICS, RECENTLY WROTE A GREAT ARTICLE IN ENTREPRENEUR ON THE SUBJECT. BE SURE TO CHECK OUT WHO NEEDS AN OFFICE? HOW TO GO 100 PERCENT REMOTE AND READ ABOUT HIS 6 GREAT TIPS ON THE SUBJECT!
+
+MARCH 25, 2015BY REMOTENATION
+FacebookTwitterPinterestGoogle +Stumbleupon
+123»
+FEATURED POSTS
+ The Ultimate Guide to Project Management Software for Remote Teams.
+The Ultimate Guide to Project Management
+ A Day in the Life of a Remote Developer
+A Day in the Life of a Remote Developer
+ A Day in the Life of a Remote Designer
+A Day in the Life of a Remote Designer
+ Working Remotely: Best Locations Away From the Home Office
+Working Remotely: Best Locations Away Fr
+ Working in the Remote Community : Meetups and Conferences
+Working in the Remote Community : Meetup
+CATEGORIES
+Advice
+Blog
+Designers
+Developers
+Guides
+Hiring
+Interview
+Office
+Product Managers
+Tools
+Working Remotely
+© 2015 copyright Remote Nation // All rights reserved
+---
+REQUIREMENTS
+
+Minimum of 2+ years professional experience writing API services
+
+Languages: Minimum 1-year writing Go (knowledge & interest in learning others a plus)
+
+GraphQL, React knowledge
+
+Comfortable working with go-kit, chi, or similar framework
+
+Clear & constructive communication
+
+PostgreSQL, DynamoDB, Memcached/Redis, CDNs
+
+Familiarity with Nginx, HAProxy, Trafik a plus
+
+Familiarity with Docker, Mesos, Kubernetes and similar a plus
+
+Preferred: experience working with a distributed team
+
+BENEFITS
+
+https://www.dice.com/jobs/detail/Backend-Developer%2C-Backend-Engineer%2C-Infrastructure-Engineer%2C-Software-Engineer-Critical-River%2C-Inc.-Santa-Clara-CA-95050/90805586/188176?icid=sr4-1p&q=go&l=
+
+---
+go,graphql, react, go-kit, chi, postgresql, dynamodb, memcached/redis, nginx, haproxy, traif, docker
+mesos, trafik
