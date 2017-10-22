@@ -670,3 +670,448 @@ This created a volume that I got to name and didn’t have to attach to anything
 There are other options to mount volumes including specifying host paths to mount directly within a container. Read up on these to become familiar with what’s available.
 ---
 https://docs.docker.com/engine/extend/plugins_volume/
+
+=====
+https://hovancik.net/blog/2017/07/02/creating-new-rails-and-vue-js-app-with-docker/
+
+Creating new Rails and Vue.js app with Docker
+=---
+hovancik.net/blog/
+
+Creating new Rails and Vue.js app with Docker
+
+Posted under ruby rails docker vuejs on Jul 2 2017
+
+·
+The most of Rails and Docker tutorials either show how to dockerize your existing app, or how to create new Rails app by installing Rails locally and then adding Docker as second step.
+
+It works but it have always struck me as weird idea: why installing Ruby first? Isn't the point of Docker, at least in part, that I do not need Ruby locally?
+
+I am not that familiar with Docker so I decided to figure this out. Vue.js included, as it's something I want to try out and there's not a lot of stuff about it out there.
+
+The result should be basic example of Vue.js and Rails app running inside Docker container. And for that, I'd like to use webpacker gem. One more thing: no CoffeeScript (which is default for Rails).
+
+I recommend to familiarize yourself with Docker and webpacker, if not already. I am not gonna talk about them a lot.
+
+No local Ruby and Rails
+
+As it turns out, it's not that hard.
+
+All I needed to do is go to the official Docker's Rails example. The document shows how to create new Rails app with PostgreSQL database without need to have Rails or Ruby installed on local machine.
+
+Adding Vue.js to the mix changes steps a bit and that's what I will be writing about.
+
+Docker container
+
+To be able to create new app, we first need to prepare Docker container that can run rails new fancyapp --force --database=postgresql --webpack=vue --skip-coffee command. For that we need to have Rails so feel free to initialize your git repo and create basic Gemfile.
+
+source 'https://rubygems.org'
+ruby '2.4.1'
+gem 'rails', '~> 5.1', '>= 5.1.1'
+Gemfile.lock is empty at this point.
+
+Now let's install other dependencies via Dockerfile.
+
+FROM ruby:2.4.1
+
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev
+
+# Node.js
+RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - \
+&& apt-get install -y nodejs
+
+RUN apt-get update && apt-get install -y curl apt-transport-https wget && \
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
+apt-get update && apt-get install -y yarn
+
+RUN mkdir /fancyapp
+WORKDIR /fancyapp
+
+ADD Gemfile /fancyapp/Gemfile
+ADD Gemfile.lock /fancyapp/Gemfile.lock
+
+RUN bundle install
+
+ADD . /fancyapp
+This is pretty straightforward: we install PostgreSQL lib, Node.js and yarn. Then we create directory for our fancy app and add Gemfile and Gemfile.lock there. Bundle will install Rails so we can use it to create new app.
+
+Think about your app name here, and name the folder accordingly. Rails app will get name from it.
+
+One last thing is docker-compose.yml. We will use docker-compose to run Docker commands.
+
+version: '3'
+services:
+  db:
+    image: postgres
+  web:
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    volumes:
+      - .:/fancyapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+rails new fancyapp
+
+Now that we are all ready, we need to call docker-compose build. Rails and all deps will get installed, so we can docker-compose run web rails new . --force --database=postgresql --webpack=vue --skip-coffee to create new app.
+
+We do not set application name in rails new command, as we are calling it from inside our app directory. In our case the app will be called fancyapp.
+
+The command mentioned will generate new app with example Vue.js code that we will use later. If you're running on Linux, the newly created files might be owned by root. To be able to work with them, run this:
+
+sudo chown -R $USER:$USER .
+Then every time when you create files with docker-compose run ..., do it again.
+
+Do not forget to add ruby '2.4.1' to Gemfile again. It gets removed when using --force.
+
+Now you can run docker-compose build again and docker-compose up. Your app is available at localhost:3000.
+
+Adding Vue.js
+
+The app running right now is ready to run Vue.js code, but our container is not. Let's change that.
+
+To make things easier, we will add new service in our docker-compose running webpacker in development enviroment.
+
+version: '3'
+services:
+  db:
+    image: postgres
+  webpacker:
+    build: .
+    command: bundle exec bin/webpack-dev-server
+    volumes:
+      - .:/fancyapp
+    ports:
+      - "8080:8080"
+  web:
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    volumes:
+      - .:/fancyapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+      - webpacker
+You might need to run docker-compose run web yarn install to get node packages installed. That's one part I haven't figured out yet.
+
+All that is left now is adding some Vue.js code.
+
+The easiest way is to add simple page via Rails generator: docker-compose run web bundle exec rails g controller home index. We will only change the Index view by adding example Vue.js code generated in the beginning via javascript_pack_tag that will execute code in app/javascript/packs/hello_vue.js.
+
+<h1><%= javascript_pack_tag 'hello_vue' %></h1>
+Go up with your container and you should see Hello Vue! in your browser.
+
+Congratz, you have Rails with Vue.js app!
+
+Debugging
+
+If you run into any issue (eg. container wont start), it might be helpful to try to run commands not via docker-compose up, but via docker-compose run .... This way you may get better error output.
+
+One might docker-compose run web bundle exec rails s -p 3000 -b '0.0.0.0' to check whether there is something wrong with Rails starting up.
+
+I had to do that to figure out that pid file of my Rails app was not deleted when container went down.
+
+Next steps
+
+The rails new generated example Vue.js stuff for us, but that's just the start.
+
+As I am not familiar with Vue.js, my next step is doing exactly that. Then I will need to learn more about webpacker. With that knowledge I hope to be able to fully use all the goods that this setup is giving me.
+
+·
+Did you enjoy this? Copy-paste the link from the address bar to your favourite social network to share. Subscribe here.
+
+·
+
+·
+Jan Hovancik 2014+
+software developer - guitar player - poetry lover
+
+·https://hovancik.net/blog/2017/07/02/creating-new-rails-and-vue-js-app-with-docker/
+---
+http://blog.kontena.io/dockerizing-ruby-application/
+---
+MENU
+Blog
+Website
+Kontena at Github
+SUBSCRIBE
+Blog LogoMENU
+Dockerizing Ruby Application
+08 JUNE 2016
+Containers are great and they are gaining more popularity all the time. It’s replacing virtualization by removing hypervisor layer and allowing to run isolated container processes on the shared kernel instead (Image 1). The most important benefit of containers is a start time. While a full virtualized system usually takes minutes to start, containers take seconds, and sometimes even less than a second. With containers there is also a standard how to package application and deliver and deploy it.
+
+Image 1: Moving from virtualization to containerization
+
+Dockerfile
+To start putting application into a Docker container, a Dockerfile is needed. It’s like a source code of the Docker image. In Dockerfile are defined all the steps that are required to execute to get application and it's environment up and running.
+
+Docker Image
+If Dockerfile is the source code then a Docker image is the compiled version of it. Actually it’s not a single image, but a set of image layers. Image layers are cached so not the whole Docker image is needed to update if Dockerfile will change. The later the change is in Dockerfile the less image layers are required to update.
+
+Ruby Base Images
+Every Docker image extends some base image. Typically, a base image contains OS and common libraries and packages. For Ruby developers there are official Ruby base images, that contain specific Ruby versions built-in. The official Ruby base images are:
+
+ruby:version
+ruby:onbuild
+ruby:slim
+ruby:alpine
+ruby:version is the de-facto Ruby base image. In addition to Ruby, it contains a large number of extremely common Debian packages.
+
+ruby:onbuild base image is perhaps the easiest one to start with. You need to just extend this image and you are ready to go. It wraps your application automatically into a Docker image on build time. However, it's not recommended for long-term usage within a project due to the lack of control.
+
+ruby:slim is still Debian based but it only contains minimal packages to run Ruby. This is a good choice when you want to use Debian packages and define your environment by yourself.
+
+ruby:alpine is based on Alpine Linux. It’s the smallest ruby base image, but the main caveat is that it does use musl libc instead of glibc and friends, so certain software might run into issues depending on the depth of their libc requirements
+
+Debian based base images may be easier to start with but it comes with the cost of image size (Image 2). It is almost six times bigger than image based on Alpine Linux. Besides the size itself which are faster to transfer, smaller images also make your environment small and efficient. Small images all increase security as you reduce your security footprint size.
+
+Image 2: Sizes of the Official Ruby Images
+
+Of course one option is not to use any of official Ruby base images, but to use other base image instead and build the whole Ruby environment from scratch. Then you have a total control what libraries and packages you want to include in your Docker image.
+
+Docker best practices
+When running application in containers there are couple of rules of thumb to follow:
+
+Run one process per container
+
+Decoupling applications into multiple containers makes it much easier to scale horizontally and reuse containers. You can also define Docker to monitor running process of the container and when Docker recognizes the process exits it will restart it automatically
+
+Use a .dockerignore file
+
+To increase the build’s performance, you can exclude files and directories by adding a .dockerignore file to that directory as well. This file supports exclusion patterns similar to .gitignore files
+
+Use Twelve-factor Apps paradigm
+
+If you are running your application on Heroku you are used to use twelve-factor apps paradigm. Docker and containers supports natively this kind of paradigm so if you are not yet familiar with it, you can read more about on http://12factor.net/
+
+Don’t rely on IP addresses
+
+Docker will generate an IP address for each container. However, the IP address will change on every time container is re-created, so you can’t really rely on those addresses. Instead, you have to use some service discovery and DNS.
+
+Example Application
+Our example application is a simple Sinatra based application with MongoDB database. You can read all the source codes and Docker files from: https://github.com/kontena/todo-example.
+
+Dockerfile
+
+We will use Alpine Linux based Ruby base image. First, we are adding Gemfile and Gemfile.lock files to Docker image. After that we install Bundler and run bundle install. To reduce the size of the image we will remove build-time dependencies from the Docker image after dependencies are installed. Finally, we will add our application into Docker image and set some permissions and expose a port that the application will listen to. Based on that Docker can route a traffic correctly to container’s port.
+
+FROM ruby:2.3.1-alpine  
+ADD Gemfile /app/  
+ADD Gemfile.lock /app/  
+RUN apk --update add --virtual build-dependencies ruby-dev build-base && \  
+    gem install bundler --no-ri --no-rdoc && \
+    cd /app ; bundle install --without development test && \
+    apk del build-dependencies
+ADD . /app  
+RUN chown -R nobody:nogroup /app  
+USER nobody  
+ENV RACK_ENV production  
+EXPOSE 9292  
+WORKDIR /app  
+We can build the Docker image by executing docker build -t todoapp:latest .. This will generate Docker image from the Dockerfile found in the current directory and tag it as todoapp:latest.
+
+Docker-Compose
+
+We can run our application container from Docker image manually with docker run command. However, the better way is to run all application services with Docker Compose. Docker Compose is a tool for defining and running multi-container Docker applications. Application services and their configurations can be defined in docker-compose.yml file:
+
+version: '2’  
+services:  
+  web:
+    image: todoapp:latest
+    command: bundle exec puma -p 9292 -e production
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/todo_production
+    ports:
+      - 9292:9292
+    links:
+      - mongodb:mongodb
+  mongodb:
+    image: mongo:3.2
+    command: mongod --smallfiles
+So, we are defining here one web service that is using our todoapp Docker image. Then we have a MongoDB service from mongo:3.2 image and it’s linked to our web application as mongodb alias.
+
+We can deploy the whole application with docker-compose up command.
+
+So, it’s relatively easy to Dockerize Ruby application and run it locally. When rolling to production things are not that simple anymore. There are couple of things to consider:
+
+How big this app will be? How many users it will serve?
+Do you want your application to be infrastructure agnostic or lean heavily on some cloud provider?
+How to run databases or save other persistent data?
+How to scale the application and handle load balancing?
+How do you pass sensitive data to your application and where to store that data?
+How the application can be deployed and updated with zero down-time?
+You can solve all those things by yourself, but it would be a long and rocky road. Instead, you should choose a container platform that suites for your needs the best.
+
+About Kontena
+Kontena is a new open source Docker platform including orchestration, service discovery, overlay networking and all the tools required to run your containerized workloads. Kontena is built to maximize developer happiness. It works on any cloud, it's easy to setup and super simple to use. Give it a try! If you like it, please star it on Github and follow us on Twitter. We hope to see you again!
+
+Image Credits: The Container Guide by Garry Ing
+
+Lauri Nevala
+Read more posts by this author.
+
+Helsinki, Finland http://www.kontena.io
+Share this post
+  
+
+When it comes to container platforms, there isn’t one to rule them all - and that’s OK
+In the “Lord of the Rings” trilogy, there was one ring to rule them all. Fortunately, when it comes…
+UpCloud & Kontena Partnering to Deliver High Performance Containers and Microservices Platform
+We are excited to announce our partnership with UpCloud, the company providing the world's fastest cloud servers with SSD…
+Kontena Blog © 2017Proudly published with Ghost
+---
+https://12factor.net/
+---
+booom bastard
+lets try rspec now
+---
+https://relishapp.com/rspec/rspec-rails/docs/gettingstarted
+
+Install Rails-3
+
+$ gem install rails -v "~> 3.0.0"
+
+Generate an app
+
+$ rails new example
+$ cd example
+
+---
+Add rspec-rails to the Gemfile
+
+$ echo 'gem "rspec-rails", :group => [:development, :test]' >> Gemfile
+
+Install the bundle
+
+$ bundle install
+
+Bootstrap RSpec
+
+Generate a scaffold
+
+$ rails generate scaffold Widget name:string
+This generates files in the app and spec directories. The files in the
+app directory are generated by Rails, and Rails delegates the generation of
+the files in the spec directory to RSpec.
+
+Run migrations
+
+$ rake db:migrate && rake db:test:prepare
+
+
+Run RSpec
+
+$ rake spec
+
+ rspec spec --format documentation
+
+ f all went well, you should see output ending with:
+
+29 examples, 0 failures, 2 pending
+This output also includes the following controller spec:
+
+WidgetsController
+  GET index
+    assigns all widgets as @widgets
+  GET show
+    assigns the requested widget as @widget
+  GET new
+    assigns a new widget as @widget
+  GET edit
+    assigns the requested widget as @widget
+  POST create
+    with valid params
+      creates a new Widget
+      assigns a newly created widget as @widget
+      redirects to the created widget
+    with invalid params
+      assigns a newly created but unsaved widget as @widget
+      re-renders the 'new' template
+  PUT update
+    with valid params
+      updates the requested widget
+      assigns the requested widget as @widget
+      redirects to the widget
+    with invalid params
+      assigns the widget as @widget
+      re-renders the 'edit' template
+  DELETE destroy
+    destroys the requested widget
+    redirects to the widgets list
+
+---
+https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
+
+bin/rails generate model Auction start_date:datetime end_date:datetime title:string description:text
+rake db:migrate db:test:prepare
+
+require 'rails_helper'
+
+RSpec.describe Auction, :type => :model do
+  it "is valid with valid attributes"
+  it "is not valid without a title"
+  it "is not valid without a description"
+  it "is not valid without a start_date"
+  it "is not valid without a end_date"
+end
+
+it "is not valid without a title" do
+  auction = Auction.new(title: nil)
+  expect(auction).to_not be_valid
+end
+
+class Auction < ActiveRecord::Base
+  validates_presence_of :title
+end
+
+
+class Auction < ActiveRecord::Base
+  has_one :buyer, class_name: "User"
+  has_one :seller, class_name: "User"
+
+  validates_presence_of :title, :description, :start_date, :end_date
+end
+
+describe "Associations" do
+  it { should have_one(:buyer) }
+  it { should have_one(:seller) }
+end
+
+
+RSpec.describe Bid, :type => :model do
+  describe "Associations" do
+    it { should belong_to(:bidder) }
+    it { should belong_to(:auction) }
+  end
+
+  describe "Validations" do
+    it { should validate_presence_of(:bidder) }
+  end
+end
+
+class Bid < ApplicationRecord
+  belongs_to :bidder, class_name: "User"
+
+  validates_presence_of :bidder
+end
+
+# auction_spec.rb
+describe "Associations" do
+  it { should belong_to(:buyer) }
+  it { should belong_to(:seller) }
+  it { should have_many(:bids) }
+end
+
+class Auction < ActiveRecord::Base
+  belongs_to :buyer, class_name: "User", optional: true # Rails 5!
+  belongs_to :seller, class_name: "User"
+  has_many :bids
+
+  validates_presence_of :title, :description, :start_date, :end_date
+end
+
+https://www.codeschool.com/courses/testing-with-rspec    
+rails generate rspec:install
